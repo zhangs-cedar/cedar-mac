@@ -11,9 +11,9 @@ class PomodoroApp(object):
             "continue": "继续",
             "stop": "停止",
             "break_message": "时间到！该休息一下了 :)",
-            "interval": 30  # 25分钟，单位为秒
+            "interval": 60*25  # 25分钟，单位为秒
         }
-        self.app = rumps.App(self.config["app_name"])
+        self.app = rumps.App(self.config["app_name"],quit_button="退出")
         self.timer = rumps.Timer(self.on_tick, 1)
         self.interval = self.config["interval"]
         self.set_up_menu()
