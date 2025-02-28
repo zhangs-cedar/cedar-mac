@@ -1,15 +1,16 @@
 from setuptools import setup
 
-APP = ['pomodoro.py']
+APP = ['pomodoro/pomodoro.py']
 DATA_FILES = []
 OPTIONS = {
     'argv_emulation': True,
-    # 'iconfile': 'icon.icns',  # 可选：添加应用图标
+    'iconfile': 'pomodoro/icon.png',  # 可选：添加应用图标
     'plist': {
         'CFBundleShortVersionString': '0.2.0',
         'LSUIElement': True,
     },
     'packages': ['rumps'],
+    'frameworks': ['/opt/homebrew/opt/libffi/lib/libffi.8.dylib'], 
 }
 
 setup(
@@ -19,3 +20,4 @@ setup(
     options={'py2app': OPTIONS},
     setup_requires=['py2app'], install_requires=['rumps']
 )
+

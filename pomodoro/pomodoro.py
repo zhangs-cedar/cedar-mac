@@ -85,35 +85,6 @@ class PomodoroApp(object):
             item.state = 1 if item.title == selected else 0
         rumps.notification("设置成功", "", f"已设为 {selected}")
 
-    def _show_custom_dialog(self, _):
-        """改进后的跨版本兼容方案"""
-        window = rumps.Window(
-            message="请输入分钟数（1-60）",
-            default_text="25",
-            dimensions=(160, 24)
-        )
-        
-        # 使用字符串代替AppKit常量
-        window.text_field.setAllowedInputTypes_(["NSTextInputTypeNumber"])
-        
-        # 强制弹出数字键盘（实测有效）
-        window.text_field.setBezelStyle_(2)  # 圆形边框样式
-        
-        response = window.run()
-    # 后续处理保持不变...
-
-        try:
-            minutes = int(response.text)
-            if 1 <= minutes <= 60:
-                self.interval = minutes * 60
-                # 立即更新界面显示
-                self.title = f"🍅 {minutes}分钟"
-                rumps.notification("设置成功", "", f"已设为 {minutes} 分钟")
-            else:
-                raise ValueError
-        except:
-            rumps.notification("输入错误", "", "请输入1-60的整数")
-
     def start_timer(self, sender):
         # 修改判断逻辑适配中文
         if sender.title in [self.config["start"], self.config["continue"]]:
