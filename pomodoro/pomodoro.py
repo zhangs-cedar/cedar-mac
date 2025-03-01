@@ -1,6 +1,7 @@
 import rumps
 import webbrowser
 
+
 class PomodoroApp(object):
     def __init__(self):
         # 配置项中文化修改
@@ -11,7 +12,7 @@ class PomodoroApp(object):
             "continue": "继续",
             "stop": "停止",
             "break_message": "时间到！该休息一下了 :)",
-            "interval": 60*25,  # 25分钟，单位为秒
+            "interval": 60 * 25,  # 25分钟，单位为秒
             "开发者": "https://github.com/zhangs-cedar/cedar-mac",
         }
         self.app = rumps.App(self.config["app_name"], quit_button="退出")
@@ -19,44 +20,26 @@ class PomodoroApp(object):
         self.interval = self.config["interval"]
 
         # 新增预设时长配置
-        self.presets = {
-            "1分钟": 60,
-            "3分钟": 3*60,
-            "5分钟": 5*60,
-            "10分钟": 10*60,
-            "15分钟": 15*60,
-            "25分钟": 25*60,
-            "30分钟": 30*60,
-            "45分钟": 45*60
-        }
+        self.presets = {"1分钟": 60, "3分钟": 3 * 60, "5分钟": 5 * 60, "10分钟": 10 * 60, "15分钟": 15 * 60, "25分钟": 25 * 60, "30分钟": 30 * 60, "45分钟": 45 * 60}
 
         self.set_up_menu()
 
         # 构建菜单项
-        self.start_pause_button = rumps.MenuItem(
-            title=self.config["start"], callback=self.start_timer)
-        self.stop_button = rumps.MenuItem(
-            title=self.config["stop"], callback=None)
+        self.start_pause_button = rumps.MenuItem(title=self.config["start"], callback=self.start_timer)
+        self.stop_button = rumps.MenuItem(title=self.config["stop"], callback=None)
 
         # 新增设置菜单（带子菜单）
         self.settings_menu = rumps.MenuItem("设置时长")
         for preset in self.presets:
             self.settings_menu.add(rumps.MenuItem(preset, callback=self.set_duration))
 
-        self.app.menu = [
-            self.start_pause_button,
-            self.stop_button,
-            None,  # 添加分隔线
-            self.settings_menu,
-            None,  # 添加分隔线
-            rumps.MenuItem("关于开发者", callback=self.open_website)
-        ]
+        self.app.menu = [self.start_pause_button, self.stop_button, None, self.settings_menu, None, rumps.MenuItem("关于开发者", callback=self.open_website)]  # 添加分隔线  # 添加分隔线
 
     def set_up_menu(self):
         self.timer.stop()
         self.timer.count = 0
         self.app.title = "🍅"
-        
+
     def open_website(self, _):
         webbrowser.open("https://github.com/zhangs-cedar/cedar-mac")  # 替换你的目标网址
 
@@ -65,15 +48,12 @@ class PomodoroApp(object):
         mins = time_left // 60 if time_left >= 0 else time_left // 60 + 1
         secs = time_left % 60 if time_left >= 0 else (-1 * time_left) % 60
         if mins == 0 and time_left < 0:
-            rumps.notification(
-                title=self.config["app_name"],
-                subtitle=self.config["break_message"],  # 中文提示
-                message='')
+            rumps.notification(title=self.config["app_name"], subtitle=self.config["break_message"], message="")  # 中文提示
             self.stop_timer()
             self.stop_button.set_callback(None)
         else:
             self.stop_button.set_callback(self.stop_timer)
-            self.app.title = '{:2d}:{:02d}'.format(mins, secs)
+            self.app.title = "{:2d}:{:02d}".format(mins, secs)
         sender.count += 1
 
     def set_duration(self, sender):
@@ -106,6 +86,6 @@ class PomodoroApp(object):
         self.app.run()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app = PomodoroApp()
     app.run()

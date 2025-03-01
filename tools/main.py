@@ -1,6 +1,6 @@
 from cedar.init import *
 
-img_origin = imread('tools/1.png',cv2.IMREAD_UNCHANGED)
+img_origin = imread("tools/1.png", cv2.IMREAD_UNCHANGED)
 print(img_origin.shape)
 img = img_origin[:, :, 0]
 
@@ -18,9 +18,9 @@ col2 = np.where(img_col != 0)[0][-1]
 width = col2 - col1
 
 padding = row1
-img_cut = img_origin[row1-padding:row2+padding, col1-padding:col2+padding]
+img_cut = img_origin[row1 - padding : row2 + padding, col1 - padding : col2 + padding]
 
-imwrite('tools/1_cut.png', img_cut)
+imwrite("tools/1_cut.png", img_cut)
 
 imshow(img_cut)
 
