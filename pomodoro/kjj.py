@@ -1,7 +1,6 @@
 import subprocess
 from pynput import keyboard
-import time
-from init import print,chat_path
+from init import print, chat_path, python_exe
 
 
 def on_activate():
@@ -14,7 +13,7 @@ def on_activate():
     )
     # 获取脚本的输出和错误信息
     stdout, stderr = process.communicate()
-    
+
     # 获取剪贴版
     try:
         clipboard_content = subprocess.check_output(["pbpaste"])
@@ -24,7 +23,7 @@ def on_activate():
     question = clipboard_content
     # 执行 Python 脚本
     process = subprocess.Popen(
-        ["python", chat_path, question],
+        [python_exe, chat_path, question],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )

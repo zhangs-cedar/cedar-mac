@@ -1,11 +1,9 @@
 import fire
-import json5 as json
 import os.path as osp
 import tkinter as tk
 from openai import OpenAI
 from threading import Thread
-from init import print,read_json
-
+from init import print, read_json
 
 
 class QuickAnswerApp:

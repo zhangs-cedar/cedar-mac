@@ -1,7 +1,9 @@
 import rumps
+import sys
+import os.path as osp
 import webbrowser
 import subprocess
-from init import kill_process_by_pid, print, kjj_path
+from init import kill_process_by_pid, print, kjj_path, python_exe
 
 
 class PomodoroApp(object):
@@ -40,19 +42,15 @@ class PomodoroApp(object):
         self.set_up_menu()
 
         # 构建菜单项
-        self.start_pause_button = rumps.MenuItem(
-            title=self.config["start"], callback=self.start_timer)
-        self.stop_button = rumps.MenuItem(
-            title=self.config["stop"], callback=None)
+        self.start_pause_button = rumps.MenuItem(title=self.config["start"], callback=self.start_timer)
+        self.stop_button = rumps.MenuItem(title=self.config["stop"], callback=None)
 
         # 新增设置菜单（带子菜单）
         self.settings_menu = rumps.MenuItem("设置时长")
         for preset in self.presets:
-            self.settings_menu.add(rumps.MenuItem(
-                preset, callback=self.set_duration))
+            self.settings_menu.add(rumps.MenuItem(preset, callback=self.set_duration))
 
-        self.quit_button = rumps.MenuItem(
-            "退出", callback=self.custom_quit)  # 添加退出按钮
+        self.quit_button = rumps.MenuItem("退出", callback=self.custom_quit)  # 添加退出按钮
         self.app.menu = [
             self.start_pause_button,
             self.stop_button,
@@ -60,7 +58,7 @@ class PomodoroApp(object):
             self.settings_menu,
             None,
             rumps.MenuItem("关于开发者", callback=self.open_website),
-            self.quit_button
+            self.quit_button,
         ]  # 添加分隔线  # 添加分隔线
 
         self.set_plugin_chat()
@@ -71,16 +69,14 @@ class PomodoroApp(object):
         self.app.title = "🍅"
 
     def open_website(self, _):
-        webbrowser.open(
-            "https://github.com/zhangs-cedar/cedar-mac")  # 替换你的目标网址
+        webbrowser.open("https://github.com/zhangs-cedar/cedar-mac")  # 替换你的目标网址
 
     def on_tick(self, sender):
         time_left = sender.end - sender.count
         mins = time_left // 60 if time_left >= 0 else time_left // 60 + 1
         secs = time_left % 60 if time_left >= 0 else (-1 * time_left) % 60
         if mins == 0 and time_left < 0:
-            rumps.notification(
-                title=self.config["app_name"], subtitle=self.config["break_message"], message="")  # 中文提示
+            rumps.notification(title=self.config["app_name"], subtitle=self.config["break_message"], message="")  # 中文提示
             self.stop_timer()
             self.stop_button.set_callback(None)
         else:
@@ -117,9 +113,7 @@ class PomodoroApp(object):
     def set_plugin_chat(self):
         """ """
         # 启动子进程
-        self.process = subprocess.Popen(
-            ["python", kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE
-        )
+        self.process = subprocess.Popen([python_exe, kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print("子进程已启动，PID:", self.process.pid)
         # 主线程继续执行其他任务
         print("主线程继续执行...")

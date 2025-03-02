@@ -1,15 +1,9 @@
 import os
 import datetime
-
-try:
-    from pync import Notifier
-except:
-    pass
+from base import base_path
 
 # 定义全局日志文件路径
-script_directory = os.path.dirname(os.path.abspath(__file__))
-LOG_FILE = os.path.join(script_directory, "s_print.log")
-
+LOG_FILE = os.path.join(base_path, "s_print.log")
 # 备份原始的 print 函数
 original_print = print
 

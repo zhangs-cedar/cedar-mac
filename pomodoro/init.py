@@ -1,14 +1,11 @@
 import subprocess
+import sys
 import os.path as osp
 import json5 as json
 from s_print import print
+from base import *
 
-
-script_directory = osp.dirname(osp.abspath(__file__))
-kjj_path = osp.join(script_directory, "kjj.py")
-chat_path = osp.join(script_directory, "chat.py")
-config_path = osp.join(script_directory, "config.json5")
-print(kjj_path, chat_path, config_path)
+print(base_path, python_exe, kjj_path, chat_path, config_path)
 
 
 def kill_process_by_pid(pid):
@@ -24,6 +21,3 @@ def read_json(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     return data
-
-
-
