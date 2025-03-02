@@ -35,4 +35,5 @@ OPTIONS = {
     "frameworks": ["/opt/homebrew/opt/libffi/lib/libffi.8.dylib"],
 }
 
+        
 setup(app=APP, name="Pomodoro", data_files=DATA_FILES, options={"py2app": OPTIONS}, setup_requires=["py2app"], install_requires=["rumps"])
