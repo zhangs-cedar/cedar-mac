@@ -2,6 +2,9 @@ import tkinter as tk
 from threading import Thread
 from openai import OpenAI
 import json5 as json
+import os.path as osp
+
+
 
 
 def read_json(file_path):
@@ -88,24 +91,22 @@ class QuickAnswerApp:
         self.root.mainloop()
 
 
-if __name__ == "__main__":
-    # 读取配置文件
-    config = [
-        {
-            "chat_plugin": {
-                "enable": True,
-                "api_key": "sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6",
-                "base_url": "https://api.moonshot.cn/v1",
-                "model": "moonshot-v1-8k",
-                "system_content": " 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。",
-            }
-        }
-    ][0]
-
-    config = read_json("pomodoro/config.json5")
+def main(question = "解释一下什么是人工智能"):
+    """
+    Args:
+        question: 问题
+    """
+    script_directory = osp.dirname(osp.abspath(__file__))
+    json_path = osp.join(script_directory, "config.json5")
+    config = read_json(json_path)
     print(config)
-
-    question = "解释一下什么是人工智能"
     # 创建并运行应用程序
     app = QuickAnswerApp(config)
     app.run(question)
+
+
+if __name__ == "__main__":
+    question = "解释一下什么是人工智能"
+    main(question)
+
+
