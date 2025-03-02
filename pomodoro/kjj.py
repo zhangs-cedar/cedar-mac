@@ -1,32 +1,48 @@
+import subprocess
 from pynput import keyboard
 import time
-from cedar.utils import run_subprocess
+from init import print,chat_path
 
 
-class CommandCHandler:
-    def __init__(self):
-        self.listener = None
+def on_activate():
+    print("检测到热键触发")
+    # 获取用户输入,执行 command + c
+    process = subprocess.Popen(
+        ["osascript", "-e", 'tell application "System Events" to keystroke "c" using {command down}'],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    # 获取脚本的输出和错误信息
+    stdout, stderr = process.communicate()
+    
+    # 获取剪贴版
+    try:
+        clipboard_content = subprocess.check_output(["pbpaste"])
+        print("剪贴板内容:", clipboard_content.decode("utf-8"))
+    except subprocess.CalledProcessError as e:
+        print("无法读取剪贴板内容:", e)
+    question = clipboard_content
+    # 执行 Python 脚本
+    process = subprocess.Popen(
+        ["python", chat_path, question],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    # 获取脚本的输出和错误信息
+    stdout, stderr = process.communicate()
+    # 打印输出和错误信息
+    print("标准输出:", stdout.decode("utf-8"))
+    print("标准错误:", stderr.decode("utf-8"))
+    # 获取脚本的返回码
+    returncode = process.returncode
+    print("返回码:", returncode)
 
-    def block_system_shortcut(self):
-        """通过创建临时监听器阻断系统默认响应"""
-        def suppress(key):
-            if key == keyboard.Key.cmd:
-                return False  # 阻断信号
-        with keyboard.Listener(on_press=suppress) as temp_listener:
-            temp_listener.join()
 
-    def on_command_c(self):
-        self.block_system_shortcut()
-        print("⌘+C 已捕获 | 系统行为已屏蔽 | 执行自定义操作")
-        
+def kjj_run():
+    with keyboard.GlobalHotKeys({"<cmd>+<space>": on_activate}) as h:
+        print("监听已启动 (按 esc 退出)")
+        h.join()  # 保持监听
 
-    def start(self):
-        self.listener = keyboard.GlobalHotKeys({'<cmd>+c': self.on_command_c})
-        self.listener.start()
-        print("监听器已启动 → 按 ⌘+C 测试")
-        while True:  # 防止主线程退出
-            time.sleep(1)
 
 if __name__ == "__main__":
-    # CommandCHandler().start()
-    run_subprocess("/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py")
+    kjj_run()

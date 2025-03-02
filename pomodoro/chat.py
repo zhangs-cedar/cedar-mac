@@ -1,17 +1,11 @@
-import tkinter as tk
-from threading import Thread
-from openai import OpenAI
+import fire
 import json5 as json
 import os.path as osp
+import tkinter as tk
+from openai import OpenAI
+from threading import Thread
+from init import print,read_json
 
-
-
-
-def read_json(file_path):
-    """ 读取JSON文件并返回数据 """
-    with open(file_path, "r", encoding="utf-8") as file:
-        data = json.load(file)
-    return data
 
 
 class QuickAnswerApp:
@@ -72,14 +66,12 @@ class QuickAnswerApp:
             # 处理流式响应
             for chunk in stream:
                 if chunk.choices[0].delta.content:
-                    self.root.after(0, lambda c=chunk: self.text_box.insert(
-                        tk.END, c.choices[0].delta.content))
+                    self.root.after(0, lambda c=chunk: self.text_box.insert(tk.END, c.choices[0].delta.content))
                     self.root.after(0, self.text_box.see, tk.END)
         except Exception as e:
             # 捕获其他异常并显示错误信息
             error_message = f"出现未知错误: {str(e)}"
-            self.root.after(0, lambda: self.text_box.insert(
-                tk.END, error_message))
+            self.root.after(0, lambda: self.text_box.insert(tk.END, error_message))
 
     def start_stream_response(self):
         # 在新线程中启动流式请求
@@ -91,7 +83,7 @@ class QuickAnswerApp:
         self.root.mainloop()
 
 
-def main(question = "解释一下什么是人工智能"):
+def main(question="解释一下什么是人工智能"):
     """
     Args:
         question: 问题
@@ -106,7 +98,4 @@ def main(question = "解释一下什么是人工智能"):
 
 
 if __name__ == "__main__":
-    question = "解释一下什么是人工智能"
-    main(question)
-
-
+    fire.Fire(main)

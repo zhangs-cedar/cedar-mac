@@ -1,63 +1,34 @@
-from openai import OpenAI
-import tkinter as tk
-from threading import Thread
+import subprocess
+from pynput import keyboard
+import time
+
+# 初始化上一次触发时间为 0
+last_trigger_time = 0
 
 
-
-# 创建主窗口
-root = tk.Tk()
-root.title("快捷回答")
-root.geometry("400x150")
-# 创建仿Mac风格的文本框
-text_box = tk.Text(
-    root,
-    wrap=tk.WORD,
-    font=("San Francisco", 12),
-    bg="#333233"
-)
-text_box.pack(fill=tk.BOTH,
-              expand=True, 
-              padx=5, 
-              pady=5
-              )
-
-
-
-def stream_response():
-    client = OpenAI(
-        # 在这里将 MOONSHOT_API_KEY 替换为你从 Kimi 开放平台申请的 API Key
-        api_key="sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6",
-        base_url="https://api.moonshot.cn/v1",
+def on_activate():
+    global last_trigger_time
+    current_time = time.time()
+    # 检查当前时间与上一次触发时间的间隔是否小于 0.5 秒
+    if current_time - last_trigger_time < 3:
+        return
+    # 更新上一次触发时间
+    last_trigger_time = current_time
+    print("检测到热键触发")
+    # 执行 Python 脚本
+    process = subprocess.Popen(
+        ["python", "/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
-
-    stream = client.chat.completions.create(
-        model="moonshot-v1-8k",
-        messages=[
-            {
-                "role": "system",
-                "content": """
-                            1. 回答字数尽量不要超过800字，越简洁明了越好，不用无用礼貌用语。
-                            2. 如果问题是英文、外文句子，翻译成中文解释.
-                            3. 如果问题是中文，先把问题翻译成英文，再回答问题。
-                            """,
-            },
-            {"role": "user", "content":  """
-                            讲一个故事，500字
-                            """,},
-        ],
-        temperature=0.1,
-        stream=True,  # <-- 注意这里，我们通过设置 stream=True 开启流式输出模式
-    )
-
-    for chunk in stream:
-        if chunk.choices[0].delta.content:
-            # 在GUI线程中更新文本框
-            root.after(0, lambda c=chunk: text_box.insert(tk.END, c.choices[0].delta.content))
-            root.after(0, text_box.see, tk.END)
+    # 获取脚本的输出和错误信息
+    stdout, stderr = process.communicate()
+    # 打印输出和错误信息
+    print("标准输出:", stdout.decode("utf-8"))
+    print("标准错误:", stderr.decode("utf-8"))
+    # 获取脚本的返回码
+    returncode = process.returncode
+    print("返回码:", returncode)
 
 
-# 在新线程中启动流式请求
-Thread(target=stream_response, daemon=True).start()
-
-# 运行主循环
-root.mainloop()
+with keyboard.GlobalHotKeys({"<cmd>+<space>": on_activate}) as h:
+    print("监听已启动 (按 esc 退出)")
+    h.join()  # 保持监听
