@@ -4,7 +4,7 @@ import sys
 import os.path as osp
 import webbrowser
 import subprocess
-from base import  kill_process_by_pid, print, env
+from base import kill_process_by_pid, print, env
 
 
 class PomodoroApp(object):
@@ -20,9 +20,6 @@ class PomodoroApp(object):
             "interval": 60 * 25,  # 25分钟，单位为秒
             "开发者": "https://github.com/zhangs-cedar/cedar-mac",
         }
-
-        # self.app = rumps.App(self.config["app_name"], quit_button="退出")
-
         self.app = rumps.App(self.config["app_name"], quit_button=None)
 
         self.timer = rumps.Timer(self.on_tick, 1)
@@ -54,14 +51,19 @@ class PomodoroApp(object):
             self.settings_menu.add(rumps.MenuItem(
                 preset, callback=self.set_duration))
 
+        # 添加分隔线
+        self.settings_ai = rumps.MenuItem(
+            "打开配置文件", callback=self.open_setting)  # 文本编辑器打开配置文件
         self.quit_button = rumps.MenuItem(
             "退出", callback=self.custom_quit)  # 添加退出按钮
+        
         self.app.menu = [
             self.start_pause_button,
             self.stop_button,
             None,
             self.settings_menu,
             None,
+            self.settings_ai,
             rumps.MenuItem("关于开发者", callback=self.open_website),
             self.quit_button,
         ]  # 添加分隔线  # 添加分隔线
@@ -76,6 +78,17 @@ class PomodoroApp(object):
     def open_website(self, _):
         webbrowser.open(
             "https://github.com/zhangs-cedar/cedar-mac")  # 替换你的目标网址
+
+    def open_setting(self, _):
+        # 文本编辑器打开配置文件
+        editor = "/System/Applications/TextEdit.app"
+        config_file = env["config_path"]
+        # open -a /System/Applications/TextEdit.app /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5
+        self.process = subprocess.Popen(
+            ["open","-a",editor, config_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        stdout, stderr = self.process.communicate()
+        print(f"标准输出: {stdout.decode('utf-8')}")
+        print(f"错误输出: {stderr.decode('utf-8')}")
 
     def on_tick(self, sender):
         time_left = sender.end - sender.count
@@ -123,7 +136,8 @@ class PomodoroApp(object):
 
         print("Python 解释器路径: {}".format(env["python_exe"]))
         print("kjj.py 文件路径: {}".format(env["kjj_path"]))
-        self.process = subprocess.Popen([env["python_exe"], env["kjj_path"],str(env)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        self.process = subprocess.Popen([env["python_exe"], env["kjj_path"], str(
+            env)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         # stdout, stderr = self.process.communicate()
         # print(f"标准输出: {stdout.decode('utf-8')}")
         # print(f"错误输出: {stderr.decode('utf-8')}")

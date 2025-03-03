@@ -122,3 +122,80 @@
 [Print] [2025-03-03 17:39:15]   (str) 执行自定义退出逻辑...    
 [Print] [2025-03-03 17:39:15]   (str) 正在关闭子进程... 55436    
 [Print] [2025-03-03 17:39:15]   (str) 进程 55436 已成功关闭。    
+[Print] [2025-03-03 17:50:28]   (str) Python 解释器路径: python    
+[Print] [2025-03-03 17:50:28]   (str) kjj.py 文件路径: /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py    
+[Print] [2025-03-03 17:50:28]   (str) 子进程已启动，PID:     (int) 63727    
+[Print] [2025-03-03 17:50:28]   (str) 主线程继续执行...    
+[Print] [2025-03-03 17:50:28]   (str) App is running...    
+[Print] [2025-03-03 17:50:28]   (str) 启动环境:     (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:50:28]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 17:51:24]   (str) Python 解释器路径: python    
+[Print] [2025-03-03 17:51:24]   (str) kjj.py 文件路径: /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py    
+[Print] [2025-03-03 17:51:24]   (str) 子进程已启动，PID:     (int) 64383    
+[Print] [2025-03-03 17:51:24]   (str) 主线程继续执行...    
+[Print] [2025-03-03 17:51:24]   (str) App is running...    
+[Print] [2025-03-03 17:51:24]   (str) 启动环境:     (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:51:24]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 18:07:49]   (str) 执行自定义退出逻辑...    
+[Print] [2025-03-03 18:07:49]   (str) 正在关闭子进程... 64383    
+[Print] [2025-03-03 18:07:49]   (str) 进程 64383 已成功关闭。    
+[Print] [2025-03-03 18:07:51]   (str) Python 解释器路径: python    
+[Print] [2025-03-03 18:07:51]   (str) kjj.py 文件路径: /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py    
+[Print] [2025-03-03 18:07:51]   (str) 子进程已启动，PID:     (int) 73201    
+[Print] [2025-03-03 18:07:51]   (str) 主线程继续执行...    
+[Print] [2025-03-03 18:07:51]   (str) App is running...    
+[Print] [2025-03-03 18:07:51]   (str) 启动环境:     (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 18:07:51]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 18:08:54]   (str) 执行自定义退出逻辑...    
+[Print] [2025-03-03 18:08:54]   (str) 正在关闭子进程... 73201    
+[Print] [2025-03-03 18:08:54]   (str) 进程 73201 已成功关闭。    
+[Print] [2025-03-03 18:08:56]   (str) Python 解释器路径: python    
+[Print] [2025-03-03 18:08:56]   (str) kjj.py 文件路径: /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py    
+[Print] [2025-03-03 18:08:56]   (str) 子进程已启动，PID:     (int) 73814    
+[Print] [2025-03-03 18:08:56]   (str) 主线程继续执行...    
+[Print] [2025-03-03 18:08:56]   (str) App is running...    
+[Print] [2025-03-03 18:08:56]   (str) 启动环境:     (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 18:08:56]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 18:09:04]   (str) 标准输出:     
+[Print] [2025-03-03 18:09:04]   (str) 错误输出:     
+[Print] [2025-03-03 18:09:50]   (str) 执行自定义退出逻辑...    
+[Print] [2025-03-03 18:09:50]   (str) 正在关闭子进程... 73906    
+[Print] [2025-03-03 18:09:50]   (str) 关闭进程 73906 时出错: Command '['kill', '-15', '73906']' returned non-zero exit status 1.    
+[Print] [2025-03-03 18:09:51]   (str) Python 解释器路径: python    
+[Print] [2025-03-03 18:09:51]   (str) kjj.py 文件路径: /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py    
+[Print] [2025-03-03 18:09:51]   (str) 子进程已启动，PID:     (int) 74441    
+[Print] [2025-03-03 18:09:51]   (str) 主线程继续执行...    
+[Print] [2025-03-03 18:09:51]   (str) App is running...    
+[Print] [2025-03-03 18:09:52]   (str) 启动环境:     (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 18:09:52]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 18:10:21]   (str) Python 解释器路径: python    
+[Print] [2025-03-03 18:10:21]   (str) kjj.py 文件路径: /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py    
+[Print] [2025-03-03 18:10:21]   (str) 子进程已启动，PID:     (int) 74796    
+[Print] [2025-03-03 18:10:21]   (str) 主线程继续执行...    
+[Print] [2025-03-03 18:10:21]   (str) App is running...    
+[Print] [2025-03-03 18:10:21]   (str) 启动环境:     (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 18:10:21]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 18:10:24]   (str) 标准输出:     
+[Print] [2025-03-03 18:10:24]   (str) 错误输出:     
+[Print] [2025-03-03 18:10:54]   (str) 检测到热键触发    
+[Print] [2025-03-03 18:10:54]   (str) 检测到热键触发    
+[Print] [2025-03-03 18:10:54]   (str) 剪贴板内容:     (str) Applications/TextEdit.app"    
+[Print] [2025-03-03 18:10:54]   (str) 剪贴板内容:     (str) Applications/TextEdit.app"    
+[Print] [2025-03-03 18:10:55]   (str) Applications/TextEdit.app"    
+[Print] [2025-03-03 18:10:55]   (str) Applications/TextEdit.app"    
+[Print] [2025-03-03 18:10:55]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 18:10:55]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 18:11:11]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 18:10:55]   (str) Applications/TextEdit.app"    
+[Print] [2025-03-03 18:10:55]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 18:11:11]   (str) 错误:     (str) 2025-03-03 18:11:05.328 python[75111:4215115] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-03 18:11:05.328 python[75111:4215115] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+    
+[Print] [2025-03-03 18:11:11]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 18:11:12]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 18:10:55]   (str) Applications/TextEdit.app"    
+[Print] [2025-03-03 18:10:55]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 18:11:12]   (str) 错误:     (str)     
+[Print] [2025-03-03 18:11:12]   (str) 返回码:     (int) 0    
