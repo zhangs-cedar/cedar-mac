@@ -1,9 +1,10 @@
 import rumps
+import os
 import sys
 import os.path as osp
 import webbrowser
 import subprocess
-from base import kill_process_by_pid, print, kjj_path, python_exe
+from base import  kill_process_by_pid, print, env
 
 
 class PomodoroApp(object):
@@ -42,15 +43,19 @@ class PomodoroApp(object):
         self.set_up_menu()
 
         # 构建菜单项
-        self.start_pause_button = rumps.MenuItem(title=self.config["start"], callback=self.start_timer)
-        self.stop_button = rumps.MenuItem(title=self.config["stop"], callback=None)
+        self.start_pause_button = rumps.MenuItem(
+            title=self.config["start"], callback=self.start_timer)
+        self.stop_button = rumps.MenuItem(
+            title=self.config["stop"], callback=None)
 
         # 新增设置菜单（带子菜单）
         self.settings_menu = rumps.MenuItem("设置时长")
         for preset in self.presets:
-            self.settings_menu.add(rumps.MenuItem(preset, callback=self.set_duration))
+            self.settings_menu.add(rumps.MenuItem(
+                preset, callback=self.set_duration))
 
-        self.quit_button = rumps.MenuItem("退出", callback=self.custom_quit)  # 添加退出按钮
+        self.quit_button = rumps.MenuItem(
+            "退出", callback=self.custom_quit)  # 添加退出按钮
         self.app.menu = [
             self.start_pause_button,
             self.stop_button,
@@ -69,14 +74,16 @@ class PomodoroApp(object):
         self.app.title = "🍅"
 
     def open_website(self, _):
-        webbrowser.open("https://github.com/zhangs-cedar/cedar-mac")  # 替换你的目标网址
+        webbrowser.open(
+            "https://github.com/zhangs-cedar/cedar-mac")  # 替换你的目标网址
 
     def on_tick(self, sender):
         time_left = sender.end - sender.count
         mins = time_left // 60 if time_left >= 0 else time_left // 60 + 1
         secs = time_left % 60 if time_left >= 0 else (-1 * time_left) % 60
         if mins == 0 and time_left < 0:
-            rumps.notification(title=self.config["app_name"], subtitle=self.config["break_message"], message="")  # 中文提示
+            rumps.notification(
+                title=self.config["app_name"], subtitle=self.config["break_message"], message="")  # 中文提示
             self.stop_timer()
             self.stop_button.set_callback(None)
         else:
@@ -113,22 +120,17 @@ class PomodoroApp(object):
     def set_plugin_chat(self):
         """ """
         # 启动子进程
-                
-        print(f"Python 解释器路径: {python_exe}")
-        print(f"kjj.py 文件路径: {kjj_path}")
-        self.process = subprocess.Popen([python_exe, kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-        # try:
-        #     self.process  = subprocess.Popen([python_exe, kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        #     stdout, stderr = self.process .communicate()
-        #     print(f"标准输出: {stdout.decode('utf-8')}")
-        #     print(f"错误输出: {stderr.decode('utf-8')}")
-        # except FileNotFoundError:
-        #     print("指定的文件或命令未找到，请检查路径。")
-        
+        print("Python 解释器路径: {}".format(env["python_exe"]))
+        print("kjj.py 文件路径: {}".format(env["kjj_path"]))
+        self.process = subprocess.Popen([env["python_exe"], env["kjj_path"],str(env)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        # stdout, stderr = self.process.communicate()
+        # print(f"标准输出: {stdout.decode('utf-8')}")
+        # print(f"错误输出: {stderr.decode('utf-8')}")
+
         print("子进程已启动，PID:", self.process.pid)
         # 主线程继续执行其他任务
-        print("主线程继续执行...")    
+        print("主线程继续执行...")
 
     def custom_quit(self, _):
         # 这里可以添加自定义逻辑，例如保存数据、关闭连接等

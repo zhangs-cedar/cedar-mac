@@ -3,11 +3,14 @@ import os.path as osp
 import tkinter as tk
 from openai import OpenAI
 from threading import Thread
-from base import print, read_json, config_path
+from base import print, read_json
+
 
 class QuickAnswerApp:
-    def __init__(self, config):
+    def __init__(self, env):
         # 初始化主窗口
+        self.env = env
+        config = read_json(self.env["config_path"])
         self.root = tk.Tk()
         self.config = config["chat_plugin"]
         self.question = "讲一个故事，500字"
@@ -81,16 +84,15 @@ class QuickAnswerApp:
         self.root.mainloop()
 
 
-def main(question="解释一下什么是人工智能"):
+def main(question="解释一下什么是人工智能", env=None):
     """
     Args:
         question: 问题
     """
-    json_path = config_path
-    config = read_json(json_path)
-    print(config)
     # 创建并运行应用程序
-    app = QuickAnswerApp(config)
+    print(question)
+    print(env)
+    app = QuickAnswerApp(env)
     app.run(question)
 
 

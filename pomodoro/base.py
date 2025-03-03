@@ -1,27 +1,45 @@
 import sys
+import os
 import datetime
 import os.path as osp
 import subprocess
 import json5 as json
 
+
 if getattr(sys, "frozen", False):
     print("打包后的应用")
-    # /Users/zhangsong/workspace/OpenSource/cedar-mac/dist/Pomodoro.app/Contents/Resources
-    base_path = osp.dirname(osp.dirname(sys.argv[0]))
-    python_exe = osp.join(base_path, "MacOS", "python")
-    kjj_path = osp.join(base_path, "Resources", "pomodoro", "kjj.py")
-    chat_path = osp.join(base_path, "Resources", "pomodoro", "chat.py")
-    config_path = osp.join(base_path, "Resources", "pomodoro", "config.json5")
-    log_path = osp.join(base_path, "Resources", "pomodoro", "pomodoro.log")
+    env = {}
+    env["base_path"] = osp.dirname(osp.dirname(sys.argv[0]))
+    env["python_exe"] = osp.join(env["base_path"], "MacOS", "python")
+    env["kjj_path"] = osp.join(
+        env["base_path"], "Resources", "pomodoro", "kjj.py")
+    env["chat_path"] = osp.join(
+        env["base_path"], "Resources", "pomodoro", "chat.py")
+    env["config_path"] = osp.join(
+        env["base_path"], "Resources", "pomodoro", "config.json5")
+    env["log_path"] = osp.join(
+        env["base_path"], "Resources", "pomodoro", "pomodoro.log")
+
 
 else:
     print("开发环境")
-    base_path = osp.dirname(osp.abspath(__file__))
-    python_exe = "python"
-    kjj_path = osp.join(base_path, "kjj.py")
-    chat_path = osp.join(base_path, "chat.py")
-    config_path = osp.join(base_path, "config.json5")
-    log_path = osp.join(base_path, "pomodoro.log")
+    env = {}
+    env["base_path"] = osp.dirname(osp.abspath(__file__))
+    env["python_exe"] = "python"
+    env["kjj_path"] = osp.join(env["base_path"], "kjj.py")
+    env["chat_path"] = osp.join(env["base_path"], "chat.py")
+    env["config_path"] = osp.join(env["base_path"], "config.json5")
+    env["log_path"] = osp.join(env["base_path"], "pomodoro.log")
+
+
+def subprocess_call(cmd):
+    try:
+        result = subprocess.check_output(
+            cmd, shell=True, stderr=subprocess.STDOUT)
+        return result.decode()
+    except subprocess.CalledProcessError as e:
+        error_message = f"执行命令失败: {e}"
+        raise Exception(error_message)
 
 
 def kill_process_by_pid(pid):
@@ -39,12 +57,12 @@ def read_json(file_path):
     return data
 
 
-
 # 定义全局日志文件路径
-LOG_FILE = log_path
+LOG_FILE = env["log_path"]
 # 备份原始的 print 函数
 original_print = print
 # 定义自定义的 print 函数
+
 def print(*args, sep=" ", end="\n", file=None):
     # 在输出前添加一个前缀
     # 获取当前时间
@@ -63,5 +81,3 @@ def print(*args, sep=" ", end="\n", file=None):
     with open(file, "a", encoding="utf-8") as log_file:  # 使用追加模式
         log_file.write(output + "\n")  # 写入内容并换行
     return output
-
-

@@ -1,28 +1,26 @@
 from setuptools import setup
 
-APP = ["pomodoro/kjj.py"]
+APP = ["pomodoro/pomodoro.py"]
 DATA_FILES = [
     (
         "pomodoro",
         [
             "pomodoro/icon.png",
             "pomodoro/config.json5",
-            
             "pomodoro/base.py",
             "pomodoro/chat.py",
             "pomodoro/kjj.py",
             "pomodoro/pomodoro.py"
         ],
         
-    ),
+    ),  # /Users/zhangsong/workspace/OpenSource/cedar-mac/dist/Pomodoro.app/Contents/Resources/lib/libssl.3.dylib
+    #Pomodoro.app/Contents/Resources/lib/python3.10/lib-dynload/_ssl.so
     (
         "lib",["/opt/homebrew/opt/libffi/lib/libffi.8.dylib",
-                "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib",  #"libtk8.6.dylib"
+                "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib",  
                  "/opt/homebrew/opt/tcl-tk@8/lib/libtk8.6.dylib",
                  "/opt/homebrew/opt/openssl/lib/libssl.3.dylib",
                  "/opt/homebrew/opt/openssl/lib/libcrypto.3.dylib"
-                 # /usr/local/lib/libssl.3.dylib   
-                     # libcrypto.3.dylib   
                ],
     )
 ]
@@ -44,7 +42,10 @@ OPTIONS = {
     ],
     "excludes": [],                              
     "frameworks": ["/opt/homebrew/opt/libffi/lib/libffi.8.dylib",
-                   "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib"
+                "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib",  
+                 "/opt/homebrew/opt/tcl-tk@8/lib/libtk8.6.dylib",
+                 "/opt/homebrew/opt/openssl/lib/libssl.3.dylib",
+                 "/opt/homebrew/opt/openssl/lib/libcrypto.3.dylib"
                    ],
 }
 

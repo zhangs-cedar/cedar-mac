@@ -1,79 +1,124 @@
-[Print] [2025-03-03 10:05:57]   (str) 监听已启动 (按 esc 退出)    
-[Print] [2025-03-03 10:06:01]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:06:02]   (str) 剪贴板内容:     (str) 监听已启动 (按 esc 退出)")    
-[Print] [2025-03-03 10:06:02]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:06:07]   (str) 标准输出:     (str) 开发环境
-[Print] [2025-03-03 10:06:02]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 17:34:55]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:34:55]   (str) 剪贴板内容:     (str) Python 解释器路径: python       
+[Print] [2025-03-03 17:34:56]   (str) Python 解释器路径: python       
+[Print] [2025-03-03 17:34:56]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:35:11]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:34:56]   (str) Python 解释器路径: python       
+[Print] [2025-03-03 17:34:56]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
     
-[Print] [2025-03-03 10:06:07]   (str) 标准错误:     (str)     
-[Print] [2025-03-03 10:06:07]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:06:17]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:06:17]   (str) 剪贴板内容:     (str) 监听已启动 (按 esc 退出)")    
-[Print] [2025-03-03 10:06:17]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:06:21]   (str) 标准输出:     (str) 开发环境
-[Print] [2025-03-03 10:06:17]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 17:35:11]   (str) 错误:     (str) 2025-03-03 17:34:58.175 python[54564:4138051] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-03 17:34:58.175 python[54564:4138051] +[IMKInputSession subclass]: chose IMKInputSession_Modern
     
-[Print] [2025-03-03 10:06:21]   (str) 标准错误:     (str)     
-[Print] [2025-03-03 10:06:21]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:20:43]   (str) 监听已启动 (按 esc 退出)    
-[Print] [2025-03-03 10:20:45]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:20:46]   (str) 剪贴板内容:     (str) process.communicate()    
-[Print] [2025-03-03 10:20:47]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:21:01]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:21:01]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:21:02]   (str) 剪贴板内容:     (str) process.communicate()    
-[Print] [2025-03-03 10:21:02]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:21:11]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:21:11]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:21:11]   (str) 剪贴板内容:     (str) process.communicate()    
-[Print] [2025-03-03 10:21:11]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:21:21]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:21:21]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:21:21]   (str) 剪贴板内容:     (str) process.communicate()    
-[Print] [2025-03-03 10:21:21]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:22:34]   (str) 监听已启动 (按 esc 退出)    
-[Print] [2025-03-03 10:22:37]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:22:37]   (str) 剪贴板内容:     (str) 重复提问    
-[Print] [2025-03-03 10:22:38]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:22:42]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:22:47]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:22:47]   (str) 剪贴板内容:     (str) 重复提问    
-[Print] [2025-03-03 10:22:47]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:22:55]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:23:00]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:00]   (str) 剪贴板内容:     (str) 剪贴板内容    
-[Print] [2025-03-03 10:23:00]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:23:07]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:23:17]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:17]   (str) 剪贴板内容:     (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:18]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:23:26]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:23:26]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:26]   (str) 剪贴板内容:     (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:26]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:23:32]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:23:32]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:32]   (str) 剪贴板内容:     (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:32]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:23:36]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:23:36]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:36]   (str) 剪贴板内容:     (str) 检测到热键触发    
-[Print] [2025-03-03 10:23:36]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:24:01]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:24:40]   (str) 监听已启动 (按 esc 退出)    
-[Print] [2025-03-03 10:24:45]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:24:45]   (str) 剪贴板内容:     (str) stdout    
-[Print] [2025-03-03 10:24:45]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:24:50]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:24:55]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:24:55]   (str) 剪贴板内容:     (str) stdout    
-[Print] [2025-03-03 10:24:55]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:25:19]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:25:29]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:25:29]   (str) 剪贴板内容:     (str) last_question
+[Print] [2025-03-03 17:35:11]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:35:25]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:35:26]   (str) 剪贴板内容:     (str) :11]   (str) 错误:     (    
+[Print] [2025-03-03 17:35:27]   (str) :11]   (str) 错误:     (    
+[Print] [2025-03-03 17:35:27]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:35:34]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:35:27]   (str) :11]   (str) 错误:     (    
+[Print] [2025-03-03 17:35:27]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
     
-[Print] [2025-03-03 10:25:30]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
-[Print] [2025-03-03 10:25:32]   (str) 返回码:     (int) 0    
-[Print] [2025-03-03 10:26:00]   (str) 监听已启动 (按 esc 退出)    
-[Print] [2025-03-03 10:26:04]   (str) 检测到热键触发    
-[Print] [2025-03-03 10:26:05]   (str) 剪贴板内容:     (str) 重复提问    
+[Print] [2025-03-03 17:35:34]   (str) 错误:     (str) 2025-03-03 17:35:32.303 python[54859:4139438] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-03 17:35:32.303 python[54859:4139438] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+    
+[Print] [2025-03-03 17:35:34]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:35:42]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:35:42]   (str) 剪贴板内容:     (str) 进程 54345 已成功关闭。    
+[Print] [2025-03-03 17:35:43]   (str) 进程 54345 已成功关闭。    
+[Print] [2025-03-03 17:35:43]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:35:56]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:35:43]   (str) 进程 54345 已成功关闭。    
+[Print] [2025-03-03 17:35:43]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:35:56]   (str) 错误:     (str)     
+[Print] [2025-03-03 17:35:56]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:36:01]   (str) 执行自定义退出逻辑...    
+[Print] [2025-03-03 17:36:01]   (str) 正在关闭子进程... 54459    
+[Print] [2025-03-03 17:36:01]   (str) 进程 54459 已成功关闭。    
+[Print] [2025-03-03 17:36:27]   (str) Python 解释器路径: python    
+[Print] [2025-03-03 17:36:27]   (str) kjj.py 文件路径: /Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py    
+[Print] [2025-03-03 17:36:27]   (str) 子进程已启动，PID:     (int) 55436    
+[Print] [2025-03-03 17:36:27]   (str) 主线程继续执行...    
+[Print] [2025-03-03 17:36:27]   (str) App is running...    
+[Print] [2025-03-03 17:36:27]   (str) 启动环境:     (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:36:27]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 17:36:39]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:36:39]   (str) 剪贴板内容:     (str) There are two apples on the tree    
+[Print] [2025-03-03 17:36:40]   (str) There are two apples on the tree    
+[Print] [2025-03-03 17:36:40]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:36:46]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:36:40]   (str) There are two apples on the tree    
+[Print] [2025-03-03 17:36:40]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:36:46]   (str) 错误:     (str)     
+[Print] [2025-03-03 17:36:46]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:37:01]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:37:02]   (str) 剪贴板内容:     (str) 树上有两个苹果    
+[Print] [2025-03-03 17:37:03]   (str) 树上有两个苹果    
+[Print] [2025-03-03 17:37:03]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:37:06]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:37:03]   (str) 树上有两个苹果    
+[Print] [2025-03-03 17:37:03]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:37:06]   (str) 错误:     (str)     
+[Print] [2025-03-03 17:37:06]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:37:25]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:37:25]   (str) 剪贴板内容:     (str) 小米su7咋样    
+[Print] [2025-03-03 17:37:26]   (str) 小米su7咋样    
+[Print] [2025-03-03 17:37:26]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:37:31]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:37:26]   (str) 小米su7咋样    
+[Print] [2025-03-03 17:37:26]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:37:31]   (str) 错误:     (str)     
+[Print] [2025-03-03 17:37:31]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:37:41]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:37:41]   (str) 剪贴板内容:     (str) 快捷指令调用AI如何获得流式输出
+    
+[Print] [2025-03-03 17:37:42]   (str) 快捷指令调用AI如何获得流式输出    
+[Print] [2025-03-03 17:37:42]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:37:50]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:37:42]   (str) 快捷指令调用AI如何获得流式输出    
+[Print] [2025-03-03 17:37:42]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:37:50]   (str) 错误:     (str) 2025-03-03 17:37:48.090 python[56146:4144730] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-03 17:37:48.090 python[56146:4144730] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+    
+[Print] [2025-03-03 17:37:50]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:38:16]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:38:16]   (str) 剪贴板内容:     (str) 快捷指令调用AI如何获得流式输出
+    
+[Print] [2025-03-03 17:38:17]   (str) 重复提问,等待一会    
+[Print] [2025-03-03 17:38:18]   (str) 快捷指令调用AI如何获得流式输出    
+[Print] [2025-03-03 17:38:18]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:38:40]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:38:18]   (str) 快捷指令调用AI如何获得流式输出    
+[Print] [2025-03-03 17:38:18]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:38:40]   (str) 错误:     (str) 2025-03-03 17:38:21.916 python[56458:4146082] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-03 17:38:21.916 python[56458:4146082] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+    
+[Print] [2025-03-03 17:38:40]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:38:48]   (str) 检测到热键触发       
+[Print] [2025-03-03 17:38:48]   (str) 剪贴板内容:     (str)  返回码:     (int) 0        
+[Print] [2025-03-03 17:38:49]   (str)  返回码:     (int) 0        
+[Print] [2025-03-03 17:38:49]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:38:53]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:38:49]   (str)  返回码:     (int) 0        
+[Print] [2025-03-03 17:38:49]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:38:53]   (str) 错误:     (str)     
+[Print] [2025-03-03 17:38:53]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:39:02]   (str) 检测到热键触发    
+[Print] [2025-03-03 17:39:02]   (str) 剪贴板内容:     (str) 返回码:     (int) 0      
+[Print] [2025-03-03 17:39:03]   (str) 返回码:     (int) 0      
+[Print] [2025-03-03 17:39:03]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+[Print] [2025-03-03 17:39:07]   (str) 输出:     (str) 开发环境
+[Print] [2025-03-03 17:39:03]   (str) 返回码:     (int) 0      
+[Print] [2025-03-03 17:39:03]   (dict) {'base_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro', 'python_exe': 'python', 'kjj_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/kjj.py', 'chat_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py', 'config_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/config.json5', 'log_path': '/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/pomodoro.log'}    
+    
+[Print] [2025-03-03 17:39:07]   (str) 错误:     (str)     
+[Print] [2025-03-03 17:39:07]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 17:39:15]   (str) 执行自定义退出逻辑...    
+[Print] [2025-03-03 17:39:15]   (str) 正在关闭子进程... 55436    
+[Print] [2025-03-03 17:39:15]   (str) 进程 55436 已成功关闭。    
