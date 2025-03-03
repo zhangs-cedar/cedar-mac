@@ -3,8 +3,7 @@ import os.path as osp
 import tkinter as tk
 from openai import OpenAI
 from threading import Thread
-from init import print, read_json
-
+from base import print, read_json, config_path
 
 class QuickAnswerApp:
     def __init__(self, config):
@@ -47,7 +46,6 @@ class QuickAnswerApp:
                 api_key=self.config["api_key"],
                 base_url=self.config["base_url"],
             )
-
             # 创建流式请求
             stream = client.chat.completions.create(
                 model=self.config["model"],
@@ -64,12 +62,14 @@ class QuickAnswerApp:
             # 处理流式响应
             for chunk in stream:
                 if chunk.choices[0].delta.content:
-                    self.root.after(0, lambda c=chunk: self.text_box.insert(tk.END, c.choices[0].delta.content))
+                    self.root.after(0, lambda c=chunk: self.text_box.insert(
+                        tk.END, c.choices[0].delta.content))
                     self.root.after(0, self.text_box.see, tk.END)
         except Exception as e:
             # 捕获其他异常并显示错误信息
             error_message = f"出现未知错误: {str(e)}"
-            self.root.after(0, lambda: self.text_box.insert(tk.END, error_message))
+            self.root.after(0, lambda: self.text_box.insert(
+                tk.END, error_message))
 
     def start_stream_response(self):
         # 在新线程中启动流式请求
@@ -86,8 +86,7 @@ def main(question="解释一下什么是人工智能"):
     Args:
         question: 问题
     """
-    script_directory = osp.dirname(osp.abspath(__file__))
-    json_path = osp.join(script_directory, "config.json5")
+    json_path = config_path
     config = read_json(json_path)
     print(config)
     # 创建并运行应用程序

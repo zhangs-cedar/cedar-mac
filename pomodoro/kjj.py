@@ -1,13 +1,19 @@
 import subprocess
 from pynput import keyboard
-from init import print, chat_path, python_exe
+from base import print, chat_path, python_exe
+
+
+
+
 
 
 def on_activate():
     print("检测到热键触发")
+
     # 获取用户输入,执行 command + c
     process = subprocess.Popen(
-        ["osascript", "-e", 'tell application "System Events" to keystroke "c" using {command down}'],
+        ["osascript", "-e",
+            'tell application "System Events" to keystroke "c" using {command down}'],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
@@ -21,20 +27,25 @@ def on_activate():
     except subprocess.CalledProcessError as e:
         print("无法读取剪贴板内容:", e)
     question = clipboard_content
-    # 执行 Python 脚本
-    process = subprocess.Popen(
-        [python_exe, chat_path, question],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-    )
-    # 获取脚本的输出和错误信息
-    stdout, stderr = process.communicate()
-    # 打印输出和错误信息
-    print("标准输出:", stdout.decode("utf-8"))
-    print("标准错误:", stderr.decode("utf-8"))
-    # 获取脚本的返回码
-    returncode = process.returncode
-    print("返回码:", returncode)
+
+    if question == last_question:
+        print("重复提问")
+    else:
+        last_question = question
+        # 执行 Python 脚本
+        process = subprocess.Popen(
+            [python_exe, chat_path, question],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        # 获取脚本的输出和错误信息
+        stdout, stderr = process.communicate()
+        # # 打印输出和错误信息
+        # print("标准输出:", stdout.decode("utf-8"))
+        # print("标准错误:", stderr.decode("utf-8"))
+        # 获取脚本的返回码
+        returncode = process.returncode
+        print("返回码:", returncode)
 
 
 def kjj_run():

@@ -1,18 +1,29 @@
 from setuptools import setup
 
-APP = ["pomodoro/pomodoro.py"]
+APP = ["pomodoro/kjj.py"]
 DATA_FILES = [
     (
         "pomodoro",
         [
-            "pomodoro/base.py",
-            "pomodoro/s_print.py",
             "pomodoro/icon.png",
             "pomodoro/config.json5",
+            
+            "pomodoro/base.py",
             "pomodoro/chat.py",
-            "pomodoro/init.py",
             "pomodoro/kjj.py",
+            "pomodoro/pomodoro.py"
         ],
+        
+    ),
+    (
+        "lib",["/opt/homebrew/opt/libffi/lib/libffi.8.dylib",
+                "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib",  #"libtk8.6.dylib"
+                 "/opt/homebrew/opt/tcl-tk@8/lib/libtk8.6.dylib",
+                 "/opt/homebrew/opt/openssl/lib/libssl.3.dylib",
+                 "/opt/homebrew/opt/openssl/lib/libcrypto.3.dylib"
+                 # /usr/local/lib/libssl.3.dylib   
+                     # libcrypto.3.dylib   
+               ],
     )
 ]
 OPTIONS = {
@@ -31,8 +42,10 @@ OPTIONS = {
         "webbrowser",
         "json5",
     ],
-    "excludes": [],
-    "frameworks": ["/opt/homebrew/opt/libffi/lib/libffi.8.dylib"],
+    "excludes": [],                              
+    "frameworks": ["/opt/homebrew/opt/libffi/lib/libffi.8.dylib",
+                   "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib"
+                   ],
 }
 
         

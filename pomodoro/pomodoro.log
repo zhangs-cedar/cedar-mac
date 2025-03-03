@@ -1,0 +1,79 @@
+[Print] [2025-03-03 10:05:57]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 10:06:01]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:06:02]   (str) 剪贴板内容:     (str) 监听已启动 (按 esc 退出)")    
+[Print] [2025-03-03 10:06:02]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:06:07]   (str) 标准输出:     (str) 开发环境
+[Print] [2025-03-03 10:06:02]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+    
+[Print] [2025-03-03 10:06:07]   (str) 标准错误:     (str)     
+[Print] [2025-03-03 10:06:07]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:06:17]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:06:17]   (str) 剪贴板内容:     (str) 监听已启动 (按 esc 退出)")    
+[Print] [2025-03-03 10:06:17]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:06:21]   (str) 标准输出:     (str) 开发环境
+[Print] [2025-03-03 10:06:17]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+    
+[Print] [2025-03-03 10:06:21]   (str) 标准错误:     (str)     
+[Print] [2025-03-03 10:06:21]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:20:43]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 10:20:45]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:20:46]   (str) 剪贴板内容:     (str) process.communicate()    
+[Print] [2025-03-03 10:20:47]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:21:01]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:21:01]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:21:02]   (str) 剪贴板内容:     (str) process.communicate()    
+[Print] [2025-03-03 10:21:02]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:21:11]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:21:11]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:21:11]   (str) 剪贴板内容:     (str) process.communicate()    
+[Print] [2025-03-03 10:21:11]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:21:21]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:21:21]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:21:21]   (str) 剪贴板内容:     (str) process.communicate()    
+[Print] [2025-03-03 10:21:21]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:22:34]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 10:22:37]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:22:37]   (str) 剪贴板内容:     (str) 重复提问    
+[Print] [2025-03-03 10:22:38]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:22:42]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:22:47]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:22:47]   (str) 剪贴板内容:     (str) 重复提问    
+[Print] [2025-03-03 10:22:47]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:22:55]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:23:00]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:00]   (str) 剪贴板内容:     (str) 剪贴板内容    
+[Print] [2025-03-03 10:23:00]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:23:07]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:23:17]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:17]   (str) 剪贴板内容:     (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:18]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:23:26]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:23:26]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:26]   (str) 剪贴板内容:     (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:26]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:23:32]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:23:32]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:32]   (str) 剪贴板内容:     (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:32]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:23:36]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:23:36]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:36]   (str) 剪贴板内容:     (str) 检测到热键触发    
+[Print] [2025-03-03 10:23:36]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:24:01]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:24:40]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 10:24:45]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:24:45]   (str) 剪贴板内容:     (str) stdout    
+[Print] [2025-03-03 10:24:45]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:24:50]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:24:55]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:24:55]   (str) 剪贴板内容:     (str) stdout    
+[Print] [2025-03-03 10:24:55]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:25:19]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:25:29]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:25:29]   (str) 剪贴板内容:     (str) last_question
+    
+[Print] [2025-03-03 10:25:30]   (dict) {'chat_plugin': {'enable': True, 'api_key': 'sk-Eyzpa0mEN1PmHSS3vhaA3dVMknRacl7FTcUYnb21wVlOlcf6', 'base_url': 'https://api.moonshot.cn/v1', 'model': 'moonshot-v1-8k', 'system_content': ' 1. 回答字数尽量不要超过500字，越简洁明了越好，不用无用礼貌用语。2. 如果问题是英文、外文句子，翻译成中文解释. 3. 如果问题是中文，先把问题翻译成英文，再回答问题。'}}    
+[Print] [2025-03-03 10:25:32]   (str) 返回码:     (int) 0    
+[Print] [2025-03-03 10:26:00]   (str) 监听已启动 (按 esc 退出)    
+[Print] [2025-03-03 10:26:04]   (str) 检测到热键触发    
+[Print] [2025-03-03 10:26:05]   (str) 剪贴板内容:     (str) 重复提问    

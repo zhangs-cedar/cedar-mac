@@ -3,7 +3,7 @@ import sys
 import os.path as osp
 import webbrowser
 import subprocess
-from init import kill_process_by_pid, print, kjj_path, python_exe
+from base import kill_process_by_pid, print, kjj_path, python_exe
 
 
 class PomodoroApp(object):
@@ -116,19 +116,19 @@ class PomodoroApp(object):
                 
         print(f"Python 解释器路径: {python_exe}")
         print(f"kjj.py 文件路径: {kjj_path}")
-        # self.process = subprocess.Popen([python_exe, kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        self.process = subprocess.Popen([python_exe, kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-        try:
-            self.process  = subprocess.Popen([python_exe, kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            stdout, stderr = self.process .communicate()
-            print(f"标准输出: {stdout.decode('utf-8')}")
-            print(f"错误输出: {stderr.decode('utf-8')}")
-        except FileNotFoundError:
-            print("指定的文件或命令未找到，请检查路径。")
+        # try:
+        #     self.process  = subprocess.Popen([python_exe, kjj_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #     stdout, stderr = self.process .communicate()
+        #     print(f"标准输出: {stdout.decode('utf-8')}")
+        #     print(f"错误输出: {stderr.decode('utf-8')}")
+        # except FileNotFoundError:
+        #     print("指定的文件或命令未找到，请检查路径。")
         
         print("子进程已启动，PID:", self.process.pid)
         # 主线程继续执行其他任务
-        print("主线程继续执行...")
+        print("主线程继续执行...")    
 
     def custom_quit(self, _):
         # 这里可以添加自定义逻辑，例如保存数据、关闭连接等
