@@ -6,6 +6,11 @@ import webbrowser
 import subprocess
 from base import kill_process_by_pid, print, env
 
+# 打印当前环境变量
+print(env)
+# 打印系统环境变量
+print(os.environ)
+
 
 class PomodoroApp(object):
     def __init__(self):
