@@ -2,9 +2,15 @@ import fire
 import os.path as osp
 import tkinter as tk
 from openai import OpenAI
+import multiprocessing
+import subprocess
+import time
 from threading import Thread
-from base import print, read_json
+from pynput import keyboard
+from base import read_json, env
+from cedar.utils import logger, init_logger
 
+init_logger(log_file=env["log_path"])
 
 class QuickAnswerApp:
     def __init__(self, env):
@@ -13,10 +19,55 @@ class QuickAnswerApp:
         config = read_json(self.env["config_path"])
         self.root = tk.Tk()
         self.config = config["chat_plugin"]
-        self.question = "讲一个故事，500字"
+        self.last_question = None
+        self.question = "你是谁"
+        self.kjj()  # 进程：快捷键监控触发
         self.setup_window()
         self.create_text_box()
-        self.start_stream_response()
+
+    def on_activate(self):
+        logger.info("检测到热键触发")
+        self.root.lift()
+        self.root.attributes('-topmost', True)
+        self.root.attributes('-topmost', False)
+        # 获取用户输入,执行 command + c
+        process = subprocess.Popen(
+            ["osascript", "-e",
+             'tell application "System Events" to keystroke "c" using {command down}'],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        # 获取脚本的输出和错误信息
+        stdout, stderr = process.communicate()
+        # 获取剪贴版
+        try:
+            clipboard_content = subprocess.check_output(["pbpaste"])
+            print("剪贴板内容:", clipboard_content.decode("utf-8"))
+        except subprocess.CalledProcessError as e:
+            print("无法读取剪贴板内容:", e)
+            return
+
+        question = clipboard_content.decode("utf-8")
+        time.sleep(0.5)
+        if question == self.last_question:
+            print("重复提问,等待一会")
+            time.sleep(1)
+            self.last_question = None
+            return
+
+        self.last_question = question
+        self.question = question
+        print("用户输入:", question)
+        self.stream_response()
+
+    def worker(self):
+        with keyboard.GlobalHotKeys({"<cmd>+<space>": self.on_activate}) as h:
+            logger.info("监听已启动 (按 esc 退出)")
+            h.join()  # 保持监听
+
+    def kjj(self):
+        # 启动流式请求,daemon=True表示该线程为守护线程，即主线程结束时，该线程也会被强制终止
+        Thread(target=self.worker, daemon=True).start()
 
     def setup_window(self):
         # 设置窗口的位置和属性
@@ -63,38 +114,28 @@ class QuickAnswerApp:
                 stream=True,
             )
             # 处理流式响应
-            for chunk in stream:
+            first_chunk = True  # 标记是否是第一个有效内容块
+            for i,chunk in enumerate(stream):
+                if first_chunk:
+                    # 如果是第一个有效内容块，插入分割符
+                    self.root.after(0, lambda: self.text_box.insert(tk.END, "\n---------------------\n"))
+                    first_chunk = False  # 标记已处理第一个有效内容块
                 if chunk.choices[0].delta.content:
                     self.root.after(0, lambda c=chunk: self.text_box.insert(
                         tk.END, c.choices[0].delta.content))
                     self.root.after(0, self.text_box.see, tk.END)
         except Exception as e:
             # 捕获其他异常并显示错误信息
+            self.root.after(0, lambda: self.text_box.insert(tk.END, "\n---------------------\n"))
             error_message = f"出现未知错误: {str(e)}"
             self.root.after(0, lambda: self.text_box.insert(
                 tk.END, error_message))
 
-    def start_stream_response(self):
-        # 在新线程中启动流式请求
-        Thread(target=self.stream_response, daemon=True).start()
-
-    def run(self, question):
+    def run(self):
         # 运行主循环
-        self.question = question
         self.root.mainloop()
 
 
-def main(question="解释一下什么是人工智能", env=None):
-    """
-    Args:
-        question: 问题
-    """
-    # 创建并运行应用程序
-    print(question)
-    print(env)
-    app = QuickAnswerApp(env)
-    app.run(question)
-
-
 if __name__ == "__main__":
-    fire.Fire(main)
+    app = QuickAnswerApp(env)
+    app.run()

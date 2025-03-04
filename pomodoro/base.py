@@ -17,8 +17,9 @@ if getattr(sys, "frozen", False):
         env["base_path"], "Resources", "pomodoro", "chat.py")
     env["config_path"] = osp.join(
         env["base_path"], "Resources", "pomodoro", "config.json5")
-    env["log_path"] = osp.join(
-        env["base_path"], "Resources", "pomodoro", "pomodoro.log")
+    # env["log_path"] = osp.join(
+    #     env["base_path"], "Resources", "pomodoro", "pomodoro.log")
+    env["log_path"] = "/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro.log"
 
 
 else:
@@ -29,7 +30,8 @@ else:
     env["kjj_path"] = osp.join(env["base_path"], "kjj.py")
     env["chat_path"] = osp.join(env["base_path"], "chat.py")
     env["config_path"] = osp.join(env["base_path"], "config.json5")
-    env["log_path"] = osp.join(env["base_path"], "pomodoro.log")
+    # env["log_path"] = osp.join(env["base_path"], "pomodoro.log")
+    env["log_path"] = "/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro.log"
 
 
 def subprocess_call(cmd):
