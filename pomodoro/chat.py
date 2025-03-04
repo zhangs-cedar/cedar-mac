@@ -1,8 +1,5 @@
-import fire
-import os.path as osp
 import tkinter as tk
 from openai import OpenAI
-import multiprocessing
 import subprocess
 import time
 from threading import Thread
@@ -11,6 +8,7 @@ from base import read_json, env
 from cedar.utils import logger, init_logger
 
 init_logger(log_file=env["log_path"])
+
 
 class QuickAnswerApp:
     def __init__(self, env):
@@ -21,9 +19,9 @@ class QuickAnswerApp:
         self.config = config["chat_plugin"]
         self.last_question = None
         self.question = "你是谁"
-        self.kjj()  # 进程：快捷键监控触发
         self.setup_window()
         self.create_text_box()
+        self.kjj()  # 进程：快捷键监控触发
 
     def on_activate(self):
         logger.info("检测到热键触发")
@@ -115,10 +113,11 @@ class QuickAnswerApp:
             )
             # 处理流式响应
             first_chunk = True  # 标记是否是第一个有效内容块
-            for i,chunk in enumerate(stream):
+            for i, chunk in enumerate(stream):
                 if first_chunk:
                     # 如果是第一个有效内容块，插入分割符
-                    self.root.after(0, lambda: self.text_box.insert(tk.END, "\n---------------------\n"))
+                    self.root.after(0, lambda: self.text_box.insert(
+                        tk.END, "\n---------------------\n"))
                     first_chunk = False  # 标记已处理第一个有效内容块
                 if chunk.choices[0].delta.content:
                     self.root.after(0, lambda c=chunk: self.text_box.insert(
@@ -126,7 +125,8 @@ class QuickAnswerApp:
                     self.root.after(0, self.text_box.see, tk.END)
         except Exception as e:
             # 捕获其他异常并显示错误信息
-            self.root.after(0, lambda: self.text_box.insert(tk.END, "\n---------------------\n"))
+            self.root.after(0, lambda: self.text_box.insert(
+                tk.END, "\n---------------------\n"))
             error_message = f"出现未知错误: {str(e)}"
             self.root.after(0, lambda: self.text_box.insert(
                 tk.END, error_message))
@@ -135,7 +135,8 @@ class QuickAnswerApp:
         # 运行主循环
         self.root.mainloop()
 
-
-if __name__ == "__main__":
+try:
     app = QuickAnswerApp(env)
     app.run()
+except Exception as e:
+    logger.error(e)

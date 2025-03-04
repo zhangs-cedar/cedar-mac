@@ -10,3 +10,8 @@
 - ⌛ 计时：专注计时
 
 
+xattr -r -d com.apple.quarantine /Users/yourusername/Desktop/ExampleApp.app
+
+find .  -name "*.pyc" -delete
+find .  -name "*.pyc"       
+

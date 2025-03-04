@@ -1,6 +1,7 @@
 from setuptools import setup
 
-APP = ["pomodoro/pomodoro.py"]
+APP = ['pomodoro/test.py']
+APP_NAME = 'Sandwich'
 DATA_FILES = [
     (
         "pomodoro",
@@ -9,29 +10,22 @@ DATA_FILES = [
             "pomodoro/config.json5",
             "pomodoro/base.py",
             "pomodoro/chat.py",
-            "pomodoro/kjj.py",
-            "pomodoro/pomodoro.py"
         ],
-        
-    ),  # /Users/zhangsong/workspace/OpenSource/cedar-mac/dist/Pomodoro.app/Contents/Resources/lib/libssl.3.dylib
-    #Pomodoro.app/Contents/Resources/lib/python3.10/lib-dynload/_ssl.so
-    (
-        "lib",["/opt/homebrew/opt/libffi/lib/libffi.8.dylib",
-                "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib",  
-                 "/opt/homebrew/opt/tcl-tk@8/lib/libtk8.6.dylib",
-                 "/opt/homebrew/opt/openssl/lib/libssl.3.dylib",
-                 "/opt/homebrew/opt/openssl/lib/libcrypto.3.dylib"
-               ],
-    )
+
+    ), 
+
 ]
 OPTIONS = {
     "argv_emulation": True,
-    "iconfile": "pomodoro/icon.png",  # 可选：添加应用图标
-    "plist": {
-        "CFBundleShortVersionString": "0.2.0",
-        "LSUIElement": True,
+    "iconfile": "pomodoro/icon.png", 
+    'plist': {
+        'CFBundleName': APP_NAME,     # 应用名
+        'CFBundleDisplayName': APP_NAME,  # 应用显示名
+        'CFBundleVersion': '1.0.0',      # 应用版本号
+        'CFBundleIdentifier': APP_NAME,  # 应用包名、唯一标识
+        'NSHumanReadableCopyright': 'Copyright © 2021 SW Felix.Zhao. All rights reserved.',  # 可读版权
     },
-    "packages": [
+        "packages": [
         "fire",
         "tkinter",
         "openai",
@@ -40,14 +34,12 @@ OPTIONS = {
         "webbrowser",
         "json5",
     ],
-    "excludes": [],                              
-    "frameworks": ["/opt/homebrew/opt/libffi/lib/libffi.8.dylib",
-                "/opt/homebrew/opt/tcl-tk@8/lib/libtcl8.6.dylib",  
-                 "/opt/homebrew/opt/tcl-tk@8/lib/libtk8.6.dylib",
-                 "/opt/homebrew/opt/openssl/lib/libssl.3.dylib",
-                 "/opt/homebrew/opt/openssl/lib/libcrypto.3.dylib"
-                   ],
 }
 
-        
-setup(app=APP, name="Pomodoro", data_files=DATA_FILES, options={"py2app": OPTIONS}, setup_requires=["py2app"], install_requires=["rumps"])
+
+setup(
+    app=APP,
+    data_files=DATA_FILES,
+    options={'py2app': OPTIONS},
+    setup_requires=['py2app'],
+)

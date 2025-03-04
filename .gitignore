@@ -1,5 +1,75 @@
+# 忽略系统和构建文件
+.DS_Store
+Thumbs.db
+
+*.pyc
+*.log
+*.dylib
+*.so
+*.dll
+
+# 忽略构建输出
 build/
 dist/
+__pycache__/
+*.egg-info
+
+
+
+# 忽略 IDE 和编辑器文件
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+.idea/
+.vs/
+*.userprefs
+*.iml
+
+# 忽略测试和调试文件
+*.test
+*.log
+*.out
+*.tmp
+*.bak
+
+# 忽略特定工具和框架的缓存
+node_modules/
+bower_components/
+pip-selfcheck.json
+*.lock
+
+# 忽略临时文件
+*.tmp
+*.tmp.*
+*.~tmp~
+
+# 忽略日志和配置文件
+logs/
+*.log
+*.conf
+*.ini
+*.cfg
+
+# 忽略自动生成的文件
+*.min.*
+*.map
+
+# 忽略 macOS 和 Windows 系统文件
 .DS_Store
-.log
+ehthumbs.db
+Thumbs.db
+
+
+# 忽略其他常见文件
+
+*.ipynb_checkpoints/
+
+
+# 忽略 Python 特定文件
+*.pyc
+*.pyo
+*.pyd
 
