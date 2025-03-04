@@ -715,3 +715,20 @@
 [2025/03/04 22:24:04] cedar.utils.logger INFO: 布局
 [2025/03/04 22:24:04] cedar.utils.logger INFO: 容器
 [2025/03/04 22:24:04] cedar.utils.logger INFO: 。
+[2025/03/04 22:27:03] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:27:03] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:27:03] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:27:03] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:27:08] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:27:09] cedar.utils.logger INFO: 用户输入: 启动快捷回答
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 好的
+[2025/03/04 22:27:10] cedar.utils.logger INFO: ，
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 请问
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 您
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 有什么
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 问题
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 需要
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 我
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 帮助
+[2025/03/04 22:27:10] cedar.utils.logger INFO: 解答
+[2025/03/04 22:27:10] cedar.utils.logger INFO: ？
