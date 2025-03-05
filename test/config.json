@@ -1,0 +1,29 @@
+{
+    "web_pages": [
+        {
+            "name": "kimi",
+            "url": "https://www.kimi.com",
+            "title": "Kimi.ai - 会推理解析，能深度思考的AI助手"
+        },
+        {
+            "name": "豆包",
+            "url": "https://www.doubao.com",
+            "title": "豆包"
+        },
+        {
+            "name": "deepseek",
+            "url": "https://chat.deepseek.com",
+            "title": "DeepSeek"
+        },
+        {
+            "name": "知乎",
+            "url": "https://zhida.zhihu.com/",
+            "title": "知乎直答"
+        },
+        {
+            "name": "谷歌",
+            "url": "https://www.google.com.hk/search?q=%E7%BF%BB%E8%AF%91",
+            "title": "谷歌"
+        }
+    ]
+}

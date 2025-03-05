@@ -732,3 +732,1461 @@
 [2025/03/04 22:27:10] cedar.utils.logger INFO: 帮助
 [2025/03/04 22:27:10] cedar.utils.logger INFO: 解答
 [2025/03/04 22:27:10] cedar.utils.logger INFO: ？
+[2025/03/04 22:32:39] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:32:39] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:32:39] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:32:40] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:32:43] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:32:44] cedar.utils.logger INFO: 用户输入: init_logger
+[2025/03/04 22:32:46] cedar.utils.logger INFO: `
+[2025/03/04 22:32:46] cedar.utils.logger INFO: init
+[2025/03/04 22:32:46] cedar.utils.logger INFO: _logger
+[2025/03/04 22:32:46] cedar.utils.logger INFO: `
+[2025/03/04 22:32:46] cedar.utils.logger INFO:  
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 这个
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 术语
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 通常
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 是指
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 在
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 编程
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 中
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 初始化
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 日志
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 器
+[2025/03/04 22:32:46] cedar.utils.logger INFO: （
+[2025/03/04 22:32:46] cedar.utils.logger INFO: logger
+[2025/03/04 22:32:46] cedar.utils.logger INFO: ）
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 的过程
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 。
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 日志
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 器
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 是
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 用于
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 程序
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 运行
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 时
+[2025/03/04 22:32:46] cedar.utils.logger INFO: 的信息
+[2025/03/04 22:32:46] cedar.utils.logger INFO: ，
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 包括
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 错误
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 、
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 警告
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 调试
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 、
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 信息
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 等
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 。
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 在
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 不同的
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 编程
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 语言
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 和
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 框架
+[2025/03/04 22:32:47] cedar.utils.logger INFO: 中
+[2025/03/04 22:32:47] cedar.utils.logger INFO: ，
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 初始化
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 日志
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 器
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 的具体
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 实现
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 可能会
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 有所不同
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 例如
+[2025/03/04 22:32:48] cedar.utils.logger INFO: ，在
+[2025/03/04 22:32:48] cedar.utils.logger INFO: Python
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 中
+[2025/03/04 22:32:48] cedar.utils.logger INFO: ，
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 可以使用
+[2025/03/04 22:32:48] cedar.utils.logger INFO: `
+[2025/03/04 22:32:48] cedar.utils.logger INFO: logging
+[2025/03/04 22:32:48] cedar.utils.logger INFO: `
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 模块
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 来
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 初始化
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 一个
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 日志
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:48] cedar.utils.logger INFO: 器
+[2025/03/04 22:32:48] cedar.utils.logger INFO: ：
+
+
+[2025/03/04 22:32:49] cedar.utils.logger INFO: ```
+[2025/03/04 22:32:49] cedar.utils.logger INFO: python
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 
+
+[2025/03/04 22:32:49] cedar.utils.logger INFO: import
+[2025/03/04 22:32:49] cedar.utils.logger INFO:  logging
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 
+
+
+[2025/03/04 22:32:49] cedar.utils.logger INFO: #
+[2025/03/04 22:32:49] cedar.utils.logger INFO:  初始化
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 日志
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 器
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 
+
+[2025/03/04 22:32:49] cedar.utils.logger INFO: logging
+[2025/03/04 22:32:49] cedar.utils.logger INFO: .basicConfig
+[2025/03/04 22:32:49] cedar.utils.logger INFO: (level
+[2025/03/04 22:32:49] cedar.utils.logger INFO: =logging
+[2025/03/04 22:32:49] cedar.utils.logger INFO: .INFO
+[2025/03/04 22:32:49] cedar.utils.logger INFO: )
+
+[2025/03/04 22:32:49] cedar.utils.logger INFO: logger
+[2025/03/04 22:32:49] cedar.utils.logger INFO:  =
+[2025/03/04 22:32:49] cedar.utils.logger INFO:  logging
+[2025/03/04 22:32:49] cedar.utils.logger INFO: .getLogger
+[2025/03/04 22:32:49] cedar.utils.logger INFO: (__
+[2025/03/04 22:32:49] cedar.utils.logger INFO: name
+[2025/03/04 22:32:49] cedar.utils.logger INFO: __)
+
+
+[2025/03/04 22:32:49] cedar.utils.logger INFO: #
+[2025/03/04 22:32:49] cedar.utils.logger INFO:  使用
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 日志
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 器
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 信息
+[2025/03/04 22:32:49] cedar.utils.logger INFO: 
+
+[2025/03/04 22:32:50] cedar.utils.logger INFO: logger
+[2025/03/04 22:32:50] cedar.utils.logger INFO: .info
+[2025/03/04 22:32:50] cedar.utils.logger INFO: (
+[2025/03/04 22:32:50] cedar.utils.logger INFO: "This
+[2025/03/04 22:32:50] cedar.utils.logger INFO:  is
+[2025/03/04 22:32:50] cedar.utils.logger INFO:  an
+[2025/03/04 22:32:50] cedar.utils.logger INFO:  info
+[2025/03/04 22:32:50] cedar.utils.logger INFO:  message
+[2025/03/04 22:32:50] cedar.utils.logger INFO: .")
+
+[2025/03/04 22:32:50] cedar.utils.logger INFO: ```
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 
+
+
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 在
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 其他
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 编程
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 语言
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 中
+[2025/03/04 22:32:50] cedar.utils.logger INFO: ，
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 如
+[2025/03/04 22:32:50] cedar.utils.logger INFO: Java
+[2025/03/04 22:32:50] cedar.utils.logger INFO: 或
+[2025/03/04 22:32:50] cedar.utils.logger INFO: C
+[2025/03/04 22:32:50] cedar.utils.logger INFO: #
+[2025/03/04 22:32:50] cedar.utils.logger INFO: ，
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 也有
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 类似的
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 库
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 和
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 方法
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 来
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 初始化
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 和
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 使用
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 日志
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 记录
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 器
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 。
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 这个
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 术语
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 的具体
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 含义
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 取决于
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 上下
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 文
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 和
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 所使用的
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 技术
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 栈
+[2025/03/04 22:32:51] cedar.utils.logger INFO: 。
+[2025/03/04 22:34:56] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:34:56] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:34:56] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:34:57] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:34:59] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:35:00] cedar.utils.logger INFO: 用户输入: 快捷回答
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 好的
+[2025/03/04 22:35:01] cedar.utils.logger INFO: ，
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 请问
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 您
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 有什么
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 问题
+[2025/03/04 22:35:01] cedar.utils.logger INFO: ？
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 我会
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 尽量
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 简洁
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 回答
+[2025/03/04 22:35:01] cedar.utils.logger INFO: 。
+[2025/03/04 22:36:31] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:36:31] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:36:31] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:36:31] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:39:15] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:39:15] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:39:15] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:39:16] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:39:18] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:39:19] cedar.utils.logger INFO: 用户输入: 检测到热键触发
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 您
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 提到的
+[2025/03/04 22:39:21] cedar.utils.logger INFO: “
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 热
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 键
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 触发
+[2025/03/04 22:39:21] cedar.utils.logger INFO: ”
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 可能
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 指的是
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 计算机
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 系统中
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 的
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 键
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 功能
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 。
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 在
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 计算机
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 操作
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 中
+[2025/03/04 22:39:21] cedar.utils.logger INFO: ，
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 热
+[2025/03/04 22:39:21] cedar.utils.logger INFO: 键
+[2025/03/04 22:39:21] cedar.utils.logger INFO: （
+[2025/03/04 22:39:21] cedar.utils.logger INFO: Hot
+[2025/03/04 22:39:21] cedar.utils.logger INFO: key
+[2025/03/04 22:39:21] cedar.utils.logger INFO: ）
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 是一种
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 方式
+[2025/03/04 22:39:22] cedar.utils.logger INFO: ，
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 允许
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 用户
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 通过
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 按下
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 键盘
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 上的
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 特定
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 键
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 或
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 键
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 的
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 组合
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 来
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 快速
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 执行
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 命令
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 或
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 打开
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 程序
+[2025/03/04 22:39:22] cedar.utils.logger INFO: ，
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 而
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 无需
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 使用
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 鼠标
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 例如
+[2025/03/04 22:39:22] cedar.utils.logger INFO: ，
+[2025/03/04 22:39:22] cedar.utils.logger INFO: Windows
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 系统中
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 常见的
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 热
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 键
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 有
+[2025/03/04 22:39:22] cedar.utils.logger INFO: ：
+
+[2025/03/04 22:39:22] cedar.utils.logger INFO: -
+[2025/03/04 22:39:22] cedar.utils.logger INFO:  `
+[2025/03/04 22:39:22] cedar.utils.logger INFO: Ctrl
+[2025/03/04 22:39:22] cedar.utils.logger INFO:  +
+[2025/03/04 22:39:22] cedar.utils.logger INFO:  C
+[2025/03/04 22:39:22] cedar.utils.logger INFO: `
+[2025/03/04 22:39:22] cedar.utils.logger INFO: ：
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 复制
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 选中
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 的内容
+[2025/03/04 22:39:22] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:39:23] cedar.utils.logger INFO: -
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  `
+[2025/03/04 22:39:23] cedar.utils.logger INFO: Ctrl
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  +
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  V
+[2025/03/04 22:39:23] cedar.utils.logger INFO: `
+[2025/03/04 22:39:23] cedar.utils.logger INFO: ：
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 粘贴
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 复制
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 的内容
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:39:23] cedar.utils.logger INFO: -
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  `
+[2025/03/04 22:39:23] cedar.utils.logger INFO: Alt
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  +
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  Tab
+[2025/03/04 22:39:23] cedar.utils.logger INFO: `
+[2025/03/04 22:39:23] cedar.utils.logger INFO: ：
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 在
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 打开
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 的
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 程序
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 之间
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 切换
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:39:23] cedar.utils.logger INFO: -
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  `
+[2025/03/04 22:39:23] cedar.utils.logger INFO: Win
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  +
+[2025/03/04 22:39:23] cedar.utils.logger INFO:  L
+[2025/03/04 22:39:23] cedar.utils.logger INFO: `
+[2025/03/04 22:39:23] cedar.utils.logger INFO: ：
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 锁定
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 计算机
+[2025/03/04 22:39:23] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 如果您
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 是在
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 询问
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 如何
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 设置
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 或
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 使用
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 热
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 键
+[2025/03/04 22:39:24] cedar.utils.logger INFO: ，
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 通常
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 可以在
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 操作系统
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 的
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 设置
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 中
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 找到
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 相关
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 选项
+[2025/03/04 22:39:24] cedar.utils.logger INFO: ，
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 或者
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 在
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 特定
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 软件
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 的
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 偏好
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 设置
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 中
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 进行
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 配置
+[2025/03/04 22:39:24] cedar.utils.logger INFO: 。
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 如果您
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 需要
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 更
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 具体的
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 帮助
+[2025/03/04 22:39:25] cedar.utils.logger INFO: ，请
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 提供
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 更多的
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 上下
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 文
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 或
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 详细信息
+[2025/03/04 22:39:25] cedar.utils.logger INFO: 。
+[2025/03/04 22:39:28] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:39:28] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:39:28] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:39:29] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:41:00] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:41:00] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:41:00] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:41:00] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:41:26] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:41:26] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:41:26] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:41:26] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:41:30] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:41:30] cedar.utils.logger INFO: 用户输入: verticalScrollBar
+[2025/03/04 22:41:31] cedar.utils.logger INFO: Vertical
+[2025/03/04 22:41:31] cedar.utils.logger INFO:  Scroll
+[2025/03/04 22:41:31] cedar.utils.logger INFO:  Bar
+[2025/03/04 22:41:31] cedar.utils.logger INFO: 
+
+
+[2025/03/04 22:41:31] cedar.utils.logger INFO: 垂直
+[2025/03/04 22:41:31] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:31] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:31] cedar.utils.logger INFO: （
+[2025/03/04 22:41:31] cedar.utils.logger INFO: vertical
+[2025/03/04 22:41:31] cedar.utils.logger INFO:  scroll
+[2025/03/04 22:41:32] cedar.utils.logger INFO:  bar
+[2025/03/04 22:41:32] cedar.utils.logger INFO: ）
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 是
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 用户
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 界面
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 中的
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 一个
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 组件
+[2025/03/04 22:41:32] cedar.utils.logger INFO: ，
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 用于
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 在
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 内容
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 超出
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 显示
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 区域
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 时
+[2025/03/04 22:41:32] cedar.utils.logger INFO: ，
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 允许
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 用户
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 上下
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 查看
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 内容
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 。
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 它
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 通常
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 出现在
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 或
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 视
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 图
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 的
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 右侧
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 或
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 左侧
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 边缘
+[2025/03/04 22:41:32] cedar.utils.logger INFO: ，
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 用户
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 可以通过
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 拖
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 动
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 上的
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 滑
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 块
+[2025/03/04 22:41:32] cedar.utils.logger INFO: （
+[2025/03/04 22:41:32] cedar.utils.logger INFO: thumb
+[2025/03/04 22:41:32] cedar.utils.logger INFO: ）
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 来
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 快速
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 定位
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 到
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 页面
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 的不同
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 部分
+[2025/03/04 22:41:32] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 垂直
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 的主要
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 特点
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 包括
+[2025/03/04 22:41:33] cedar.utils.logger INFO: ：
+
+
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 1
+[2025/03/04 22:41:33] cedar.utils.logger INFO: .
+[2025/03/04 22:41:33] cedar.utils.logger INFO:  
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 滑
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 块
+[2025/03/04 22:41:33] cedar.utils.logger INFO: （
+[2025/03/04 22:41:33] cedar.utils.logger INFO: thumb
+[2025/03/04 22:41:33] cedar.utils.logger INFO: ）
+[2025/03/04 22:41:33] cedar.utils.logger INFO: ：
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 表示
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 当前
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 视
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 图
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 在
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 整体
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 内容
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 中
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 的位置
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 2
+[2025/03/04 22:41:33] cedar.utils.logger INFO: .
+[2025/03/04 22:41:33] cedar.utils.logger INFO:  
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 轨道
+[2025/03/04 22:41:33] cedar.utils.logger INFO: （
+[2025/03/04 22:41:33] cedar.utils.logger INFO: track
+[2025/03/04 22:41:33] cedar.utils.logger INFO: ）
+[2025/03/04 22:41:33] cedar.utils.logger INFO: ：
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 滑
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 块
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 移动
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 的
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 区域
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 3
+[2025/03/04 22:41:33] cedar.utils.logger INFO: .
+[2025/03/04 22:41:33] cedar.utils.logger INFO:  上
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 下
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 箭头
+[2025/03/04 22:41:33] cedar.utils.logger INFO: ：
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 允许
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 用户
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 逐
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 行
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:33] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 4
+[2025/03/04 22:41:34] cedar.utils.logger INFO: .
+[2025/03/04 22:41:34] cedar.utils.logger INFO:  页面
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 上
+[2025/03/04 22:41:34] cedar.utils.logger INFO: /
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 下
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 按钮
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ：
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 允许
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 用户
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 到
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 上
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 一页
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 或
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 下
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 一页
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 在
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 网页
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 设计
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 中
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ，
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 可以通过
+[2025/03/04 22:41:34] cedar.utils.logger INFO: CSS
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 控制
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 垂直
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 的
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 样式
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 和
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 行为
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 。
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 例如
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ，
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 可以使用
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 以下
+[2025/03/04 22:41:34] cedar.utils.logger INFO: CSS
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 代码
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 隐藏
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 垂直
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ：
+
+
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ```
+[2025/03/04 22:41:34] cedar.utils.logger INFO: css
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 
+
+[2025/03/04 22:41:34] cedar.utils.logger INFO: overflow
+[2025/03/04 22:41:34] cedar.utils.logger INFO: -
+[2025/03/04 22:41:34] cedar.utils.logger INFO: y
+[2025/03/04 22:41:34] cedar.utils.logger INFO: :
+[2025/03/04 22:41:34] cedar.utils.logger INFO:  hidden
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ;
+
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ```
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 
+
+
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 或者
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 使用
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 以下
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 代码
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 显示
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 垂直
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ：
+
+
+[2025/03/04 22:41:34] cedar.utils.logger INFO: ```
+[2025/03/04 22:41:34] cedar.utils.logger INFO: css
+[2025/03/04 22:41:34] cedar.utils.logger INFO: 
+
+[2025/03/04 22:41:35] cedar.utils.logger INFO: overflow
+[2025/03/04 22:41:35] cedar.utils.logger INFO: -
+[2025/03/04 22:41:35] cedar.utils.logger INFO: y
+[2025/03/04 22:41:35] cedar.utils.logger INFO: :
+[2025/03/04 22:41:35] cedar.utils.logger INFO:  scroll
+[2025/03/04 22:41:35] cedar.utils.logger INFO: ;
+
+[2025/03/04 22:41:35] cedar.utils.logger INFO: ```
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 
+
+
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 总之
+[2025/03/04 22:41:35] cedar.utils.logger INFO: ，
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 垂直
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 是一个
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 重要的
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 用户
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 界面
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 组件
+[2025/03/04 22:41:35] cedar.utils.logger INFO: ，
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 可以
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 提高
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 内容
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 的
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 可
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 访问
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 性和
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 用户体验
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 。
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 设计师
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 和
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 开发者
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 需要
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 根据
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 具体
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 需求
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 合理
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 使用
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 和
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 定制
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 滚动
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 条
+[2025/03/04 22:41:35] cedar.utils.logger INFO: 。
+[2025/03/04 22:42:28] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:42:29] cedar.utils.logger INFO: 用户输入: 隐藏窗口
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 隐藏
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 通常
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 是指
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 在
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 计算机
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 操作系统
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 中
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 将
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 当前
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 从
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 屏幕上
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 移
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 除
+[2025/03/04 22:42:30] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 但不
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 关闭
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 该
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 。
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 以下是
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 一些
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 常见的
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 隐藏
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:30] cedar.utils.logger INFO: 的方法
+[2025/03/04 22:42:30] cedar.utils.logger INFO: ：
+
+
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 1
+[2025/03/04 22:42:31] cedar.utils.logger INFO: .
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  **
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 键
+[2025/03/04 22:42:31] cedar.utils.logger INFO: **
+[2025/03/04 22:42:31] cedar.utils.logger INFO: ：
+
+[2025/03/04 22:42:31] cedar.utils.logger INFO:    
+[2025/03/04 22:42:31] cedar.utils.logger INFO: -
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  在
+[2025/03/04 22:42:31] cedar.utils.logger INFO: Windows
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 系统中
+[2025/03/04 22:42:31] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 可以使用
+[2025/03/04 22:42:31] cedar.utils.logger INFO: `
+[2025/03/04 22:42:31] cedar.utils.logger INFO: Alt
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  +
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 空
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 格
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  +
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  H
+[2025/03/04 22:42:31] cedar.utils.logger INFO: `
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 键
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 来
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 最小
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 化
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 当前
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:42:31] cedar.utils.logger INFO:    
+[2025/03/04 22:42:31] cedar.utils.logger INFO: -
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  在
+[2025/03/04 22:42:31] cedar.utils.logger INFO: Mac
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 系统中
+[2025/03/04 22:42:31] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 可以使用
+[2025/03/04 22:42:31] cedar.utils.logger INFO: `
+[2025/03/04 22:42:31] cedar.utils.logger INFO: Command
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  +
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  M
+[2025/03/04 22:42:31] cedar.utils.logger INFO: `
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 来
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 最小
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 化
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 2
+[2025/03/04 22:42:31] cedar.utils.logger INFO: .
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  **
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 系统
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 菜单
+[2025/03/04 22:42:31] cedar.utils.logger INFO: **
+[2025/03/04 22:42:31] cedar.utils.logger INFO: ：
+
+[2025/03/04 22:42:31] cedar.utils.logger INFO:    
+[2025/03/04 22:42:31] cedar.utils.logger INFO: -
+[2025/03/04 22:42:31] cedar.utils.logger INFO:  在
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 大多数
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 操作系统
+[2025/03/04 22:42:31] cedar.utils.logger INFO: 中
+[2025/03/04 22:42:31] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 点击
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 标题
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 栏
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 的
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 最小
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 化
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 按钮
+[2025/03/04 22:42:32] cedar.utils.logger INFO: （
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 通常
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 是一个
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 向下
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 的
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 箭头
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 图标
+[2025/03/04 22:42:32] cedar.utils.logger INFO: ）
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 可以
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 隐藏
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 3
+[2025/03/04 22:42:32] cedar.utils.logger INFO: .
+[2025/03/04 22:42:32] cedar.utils.logger INFO:  **
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 任务
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 栏
+[2025/03/04 22:42:32] cedar.utils.logger INFO: /
+[2025/03/04 22:42:32] cedar.utils.logger INFO: Dock
+[2025/03/04 22:42:32] cedar.utils.logger INFO: **
+[2025/03/04 22:42:32] cedar.utils.logger INFO: ：
+
+[2025/03/04 22:42:32] cedar.utils.logger INFO:    
+[2025/03/04 22:42:32] cedar.utils.logger INFO: -
+[2025/03/04 22:42:32] cedar.utils.logger INFO:  在
+[2025/03/04 22:42:32] cedar.utils.logger INFO: Windows
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 中
+[2025/03/04 22:42:32] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 最小
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 化
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 后
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 会
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 显示
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 在
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 任务
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 栏
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 上
+[2025/03/04 22:42:32] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:42:33] cedar.utils.logger INFO:    
+[2025/03/04 22:42:33] cedar.utils.logger INFO: -
+[2025/03/04 22:42:33] cedar.utils.logger INFO:  在
+[2025/03/04 22:42:33] cedar.utils.logger INFO: Mac
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 中
+[2025/03/04 22:42:33] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 最小
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 化
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 后
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 会
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 显示
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 在
+[2025/03/04 22:42:33] cedar.utils.logger INFO: Dock
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 上
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 4
+[2025/03/04 22:42:33] cedar.utils.logger INFO: .
+[2025/03/04 22:42:33] cedar.utils.logger INFO:  **
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 第三方
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 软件
+[2025/03/04 22:42:33] cedar.utils.logger INFO: **
+[2025/03/04 22:42:33] cedar.utils.logger INFO: ：
+
+[2025/03/04 22:42:33] cedar.utils.logger INFO:    
+[2025/03/04 22:42:33] cedar.utils.logger INFO: -
+[2025/03/04 22:42:33] cedar.utils.logger INFO:  
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 有些
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 第三方
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 软件
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 提供了
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 更
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 高级
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 的
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 管理
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 功能
+[2025/03/04 22:42:33] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 包括
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 隐藏
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 5
+[2025/03/04 22:42:33] cedar.utils.logger INFO: .
+[2025/03/04 22:42:33] cedar.utils.logger INFO:  **
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 编程
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 接口
+[2025/03/04 22:42:33] cedar.utils.logger INFO: **
+[2025/03/04 22:42:33] cedar.utils.logger INFO: ：
+
+[2025/03/04 22:42:33] cedar.utils.logger INFO:    
+[2025/03/04 22:42:33] cedar.utils.logger INFO: -
+[2025/03/04 22:42:33] cedar.utils.logger INFO:  对
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 于
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 开发者
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 来说
+[2025/03/04 22:42:33] cedar.utils.logger INFO: ，
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 可以通过
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 编程
+[2025/03/04 22:42:33] cedar.utils.logger INFO: 接口
+[2025/03/04 22:42:33] cedar.utils.logger INFO: （
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 如
+[2025/03/04 22:42:34] cedar.utils.logger INFO: Windows
+[2025/03/04 22:42:34] cedar.utils.logger INFO:  API
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 或
+[2025/03/04 22:42:34] cedar.utils.logger INFO: mac
+[2025/03/04 22:42:34] cedar.utils.logger INFO: OS
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 的
+[2025/03/04 22:42:34] cedar.utils.logger INFO: Qu
+[2025/03/04 22:42:34] cedar.utils.logger INFO: artz
+[2025/03/04 22:42:34] cedar.utils.logger INFO: ）
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 来
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 控制
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 的
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 显示
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 和
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 隐藏
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 如果你
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 需要
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 更
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 具体的
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 操作
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 步骤
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 或者
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 针对
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 特定
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 操作系统
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 的
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 指导
+[2025/03/04 22:42:34] cedar.utils.logger INFO: ，请
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 提供
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 更多的
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 上下
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 文
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 信息
+[2025/03/04 22:42:34] cedar.utils.logger INFO: 。
+[2025/03/04 22:43:42] cedar.utils.logger WARNING: Initialize logger
+[2025/03/04 22:43:42] cedar.utils.logger INFO: 启动快捷回答
+[2025/03/04 22:43:42] cedar.utils.logger INFO: ['/Users/zhangsong/workspace/OpenSource/cedar-mac/pomodoro/chat.py']
+[2025/03/04 22:43:42] cedar.utils.logger INFO: 监听已启动 (按 esc 退出)
+[2025/03/04 22:43:45] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:43:46] cedar.utils.logger INFO: 用户输入:         self.worker.show_window_signal.connect(self.show_window)  # 连接信号到显示窗口的方法
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 这段
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 代码
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 是
+[2025/03/04 22:43:47] cedar.utils.logger INFO: Python
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 语言
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 中
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 使用
+[2025/03/04 22:43:47] cedar.utils.logger INFO: Qt
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 框架
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 的一个
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 例子
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 。
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 在这里
+[2025/03/04 22:43:47] cedar.utils.logger INFO: ，
+[2025/03/04 22:43:47] cedar.utils.logger INFO: `
+[2025/03/04 22:43:47] cedar.utils.logger INFO: self
+[2025/03/04 22:43:47] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:47] cedar.utils.logger INFO: `
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 是一个
+[2025/03/04 22:43:47] cedar.utils.logger INFO: QObject
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 的
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 子
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 类
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 实例
+[2025/03/04 22:43:47] cedar.utils.logger INFO: ，
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 它
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 有一个
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 名为
+[2025/03/04 22:43:47] cedar.utils.logger INFO: `
+[2025/03/04 22:43:47] cedar.utils.logger INFO: show
+[2025/03/04 22:43:47] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:47] cedar.utils.logger INFO: _signal
+[2025/03/04 22:43:47] cedar.utils.logger INFO: `
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 的
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 信号
+[2025/03/04 22:43:47] cedar.utils.logger INFO: 。
+[2025/03/04 22:43:48] cedar.utils.logger INFO: `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: self
+[2025/03/04 22:43:48] cedar.utils.logger INFO: .show
+[2025/03/04 22:43:48] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:48] cedar.utils.logger INFO: `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 是
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 当前
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 类
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 的一个
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 方法
+[2025/03/04 22:43:48] cedar.utils.logger INFO: ，
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 用于
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 显示
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 代码
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 解释
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 如下
+[2025/03/04 22:43:48] cedar.utils.logger INFO: ：
+
+
+[2025/03/04 22:43:48] cedar.utils.logger INFO: -
+[2025/03/04 22:43:48] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: self
+[2025/03/04 22:43:48] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:48] cedar.utils.logger INFO: `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: :
+[2025/03/04 22:43:48] cedar.utils.logger INFO:  
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 一个
+[2025/03/04 22:43:48] cedar.utils.logger INFO: QObject
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 的
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 子
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 类
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 实例
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:43:48] cedar.utils.logger INFO: -
+[2025/03/04 22:43:48] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: show
+[2025/03/04 22:43:48] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:48] cedar.utils.logger INFO: _signal
+[2025/03/04 22:43:48] cedar.utils.logger INFO: `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: :
+[2025/03/04 22:43:48] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: self
+[2025/03/04 22:43:48] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:48] cedar.utils.logger INFO: `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 实例
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 中的
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 一个
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 信号
+[2025/03/04 22:43:48] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:43:48] cedar.utils.logger INFO: -
+[2025/03/04 22:43:48] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:48] cedar.utils.logger INFO: self
+[2025/03/04 22:43:48] cedar.utils.logger INFO: .show
+[2025/03/04 22:43:49] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:49] cedar.utils.logger INFO: `
+[2025/03/04 22:43:49] cedar.utils.logger INFO: :
+[2025/03/04 22:43:49] cedar.utils.logger INFO:  当
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 前
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 类
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 的一个
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 方法
+[2025/03/04 22:43:49] cedar.utils.logger INFO: ，
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 用于
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 显示
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 。
+
+[2025/03/04 22:43:49] cedar.utils.logger INFO: -
+[2025/03/04 22:43:49] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:49] cedar.utils.logger INFO: connect
+[2025/03/04 22:43:49] cedar.utils.logger INFO: `
+[2025/03/04 22:43:49] cedar.utils.logger INFO: :
+[2025/03/04 22:43:49] cedar.utils.logger INFO:  
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 用于
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 连接
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 信号
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 和
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 槽
+[2025/03/04 22:43:49] cedar.utils.logger INFO: （
+[2025/03/04 22:43:49] cedar.utils.logger INFO: slot
+[2025/03/04 22:43:49] cedar.utils.logger INFO: ），
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 即
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 当
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 信号
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 被
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 触发
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 时
+[2025/03/04 22:43:49] cedar.utils.logger INFO: ，
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 会自动
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 调用
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 槽
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 函数
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 所以
+[2025/03/04 22:43:49] cedar.utils.logger INFO: ，
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 这段
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 代码
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 的作用
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 是
+[2025/03/04 22:43:49] cedar.utils.logger INFO: ：
+[2025/03/04 22:43:49] cedar.utils.logger INFO: 当
+[2025/03/04 22:43:49] cedar.utils.logger INFO: `
+[2025/03/04 22:43:49] cedar.utils.logger INFO: self
+[2025/03/04 22:43:49] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:50] cedar.utils.logger INFO: `
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 的
+[2025/03/04 22:43:50] cedar.utils.logger INFO: `
+[2025/03/04 22:43:50] cedar.utils.logger INFO: show
+[2025/03/04 22:43:50] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:50] cedar.utils.logger INFO: _signal
+[2025/03/04 22:43:50] cedar.utils.logger INFO: `
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 信号
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 被
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 触发
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 时
+[2025/03/04 22:43:50] cedar.utils.logger INFO: ，
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 会自动
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 调用
+[2025/03/04 22:43:50] cedar.utils.logger INFO: `
+[2025/03/04 22:43:50] cedar.utils.logger INFO: self
+[2025/03/04 22:43:50] cedar.utils.logger INFO: .show
+[2025/03/04 22:43:50] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:50] cedar.utils.logger INFO: `
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 方法
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 来
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 显示
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 窗口
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 。
+
+
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 英文
+[2025/03/04 22:43:50] cedar.utils.logger INFO: 翻译
+[2025/03/04 22:43:50] cedar.utils.logger INFO: ：
+
+[2025/03/04 22:43:50] cedar.utils.logger INFO: This
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  line
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  code
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  is
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  an
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  example
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  using
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  Qt
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  framework
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  in
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  Python
+[2025/03/04 22:43:50] cedar.utils.logger INFO: .
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  Here
+[2025/03/04 22:43:50] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:50] cedar.utils.logger INFO: self
+[2025/03/04 22:43:50] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:50] cedar.utils.logger INFO: `
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  is
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  an
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  instance
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  a
+[2025/03/04 22:43:50] cedar.utils.logger INFO:  subclass
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  QObject
+[2025/03/04 22:43:51] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  which
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  has
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  a
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  signal
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  named
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:51] cedar.utils.logger INFO: show
+[2025/03/04 22:43:51] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:51] cedar.utils.logger INFO: _signal
+[2025/03/04 22:43:51] cedar.utils.logger INFO: `
+[2025/03/04 22:43:51] cedar.utils.logger INFO: .
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:51] cedar.utils.logger INFO: self
+[2025/03/04 22:43:51] cedar.utils.logger INFO: .show
+[2025/03/04 22:43:51] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:51] cedar.utils.logger INFO: `
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  is
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  a
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  method
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  current
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  class
+[2025/03/04 22:43:51] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  used
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  to
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  display
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  a
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  window
+[2025/03/04 22:43:51] cedar.utils.logger INFO: .
+
+
+[2025/03/04 22:43:51] cedar.utils.logger INFO: Explanation
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  code
+[2025/03/04 22:43:51] cedar.utils.logger INFO: :
+
+
+[2025/03/04 22:43:51] cedar.utils.logger INFO: -
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:51] cedar.utils.logger INFO: self
+[2025/03/04 22:43:51] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:51] cedar.utils.logger INFO: `
+[2025/03/04 22:43:51] cedar.utils.logger INFO: :
+[2025/03/04 22:43:51] cedar.utils.logger INFO:  An
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  instance
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  a
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  subclass
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  QObject
+[2025/03/04 22:43:52] cedar.utils.logger INFO: .
+
+[2025/03/04 22:43:52] cedar.utils.logger INFO: -
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:52] cedar.utils.logger INFO: show
+[2025/03/04 22:43:52] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:52] cedar.utils.logger INFO: _signal
+[2025/03/04 22:43:52] cedar.utils.logger INFO: `
+[2025/03/04 22:43:52] cedar.utils.logger INFO: :
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  A
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  signal
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  in
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:52] cedar.utils.logger INFO: self
+[2025/03/04 22:43:52] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:52] cedar.utils.logger INFO: `
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  instance
+[2025/03/04 22:43:52] cedar.utils.logger INFO: .
+
+[2025/03/04 22:43:52] cedar.utils.logger INFO: -
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:52] cedar.utils.logger INFO: self
+[2025/03/04 22:43:52] cedar.utils.logger INFO: .show
+[2025/03/04 22:43:52] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:52] cedar.utils.logger INFO: `
+[2025/03/04 22:43:52] cedar.utils.logger INFO: :
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  A
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  method
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  current
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  class
+[2025/03/04 22:43:52] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  used
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  to
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  display
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  a
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  window
+[2025/03/04 22:43:52] cedar.utils.logger INFO: .
+
+[2025/03/04 22:43:52] cedar.utils.logger INFO: -
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:52] cedar.utils.logger INFO: connect
+[2025/03/04 22:43:52] cedar.utils.logger INFO: `
+[2025/03/04 22:43:52] cedar.utils.logger INFO: :
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  Used
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  to
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  connect
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  signals
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  and
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  slots
+[2025/03/04 22:43:52] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  i
+[2025/03/04 22:43:52] cedar.utils.logger INFO: .e
+[2025/03/04 22:43:52] cedar.utils.logger INFO: .
+[2025/03/04 22:43:52] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  when
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  signal
+[2025/03/04 22:43:52] cedar.utils.logger INFO:  is
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  triggered
+[2025/03/04 22:43:53] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  slot
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  function
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  will
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  be
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  automatically
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  called
+[2025/03/04 22:43:53] cedar.utils.logger INFO: .
+
+
+[2025/03/04 22:43:53] cedar.utils.logger INFO: So
+[2025/03/04 22:43:53] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  purpose
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  this
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  line
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  code
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  is
+[2025/03/04 22:43:53] cedar.utils.logger INFO: :
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  when
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:53] cedar.utils.logger INFO: show
+[2025/03/04 22:43:53] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:53] cedar.utils.logger INFO: _signal
+[2025/03/04 22:43:53] cedar.utils.logger INFO: `
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  of
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:53] cedar.utils.logger INFO: self
+[2025/03/04 22:43:53] cedar.utils.logger INFO: .worker
+[2025/03/04 22:43:53] cedar.utils.logger INFO: `
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  is
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  triggered
+[2025/03/04 22:43:53] cedar.utils.logger INFO: ,
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  `
+[2025/03/04 22:43:53] cedar.utils.logger INFO: self
+[2025/03/04 22:43:53] cedar.utils.logger INFO: .show
+[2025/03/04 22:43:53] cedar.utils.logger INFO: _window
+[2025/03/04 22:43:53] cedar.utils.logger INFO: `
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  method
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  will
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  be
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  automatically
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  called
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  to
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  display
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  the
+[2025/03/04 22:43:53] cedar.utils.logger INFO:  window
+[2025/03/04 22:43:53] cedar.utils.logger INFO: .
+[2025/03/04 22:43:59] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:00] cedar.utils.logger INFO: 用户输入:     logger.info("启动快捷回答")
+
+[2025/03/04 22:44:00] cedar.utils.logger INFO: `
+[2025/03/04 22:44:00] cedar.utils.logger INFO: ``
+
+[2025/03/04 22:44:00] cedar.utils.logger INFO: logger
+[2025/03/04 22:44:00] cedar.utils.logger INFO: .info
+[2025/03/04 22:44:00] cedar.utils.logger INFO: (
+[2025/03/04 22:44:00] cedar.utils.logger INFO: "
+[2025/03/04 22:44:00] cedar.utils.logger INFO: Quick
+[2025/03/04 22:44:00] cedar.utils.logger INFO:  response
+[2025/03/04 22:44:00] cedar.utils.logger INFO:  initiated
+[2025/03/04 22:44:01] cedar.utils.logger INFO: ")
+
+[2025/03/04 22:44:01] cedar.utils.logger INFO: ```
+[2025/03/04 22:44:17] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:18] cedar.utils.logger INFO: 重复提问，等待一会
+[2025/03/04 22:44:26] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:27] cedar.utils.logger INFO: 用户输入:     logger.info("启动快捷回答")
+
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 这段
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 代码
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 是
+[2025/03/04 22:44:28] cedar.utils.logger INFO: Python
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 语言
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 中
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 使用
+[2025/03/04 22:44:28] cedar.utils.logger INFO: logging
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 模块
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 记录
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 日志
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 的一个
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 例子
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 。
+[2025/03/04 22:44:28] cedar.utils.logger INFO: `
+[2025/03/04 22:44:28] cedar.utils.logger INFO: logger
+[2025/03/04 22:44:28] cedar.utils.logger INFO: .info
+[2025/03/04 22:44:28] cedar.utils.logger INFO: `
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 是一个
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 方法
+[2025/03/04 22:44:28] cedar.utils.logger INFO: ，
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 用于
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 记录
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 信息
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 级别的
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 日志
+[2025/03/04 22:44:28] cedar.utils.logger INFO: ，
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 它会
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 将
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 括
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 号
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 中
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 的内容
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 作为
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 日志
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 信息
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 输出
+[2025/03/04 22:44:28] cedar.utils.logger INFO: 。
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 在这个
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 例子
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 中
+[2025/03/04 22:44:29] cedar.utils.logger INFO: ，
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 括
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 号
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 中的
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 字符串
+[2025/03/04 22:44:29] cedar.utils.logger INFO: "
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 启动
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 回答
+[2025/03/04 22:44:29] cedar.utils.logger INFO: "
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 会被
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 记录
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 到
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 日志
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 文件
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 或者
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 控制
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 台
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 中
+[2025/03/04 22:44:29] cedar.utils.logger INFO: ，
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 表示
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 程序
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 正在
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 执行
+[2025/03/04 22:44:29] cedar.utils.logger INFO: “
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 启动
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 回答
+[2025/03/04 22:44:29] cedar.utils.logger INFO: ”
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 的操作
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 。
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 这是一种
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 在
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 开发
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 中
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 常用的
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 调试
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 和
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 记录
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 程序
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 运行
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 状态
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 的方法
+[2025/03/04 22:44:29] cedar.utils.logger INFO: 。
+[2025/03/04 22:44:33] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:34] cedar.utils.logger INFO: 重复提问，等待一会
+[2025/03/04 22:44:36] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:37] cedar.utils.logger INFO: 用户输入:     logger.info("启动快捷回答")
+
+[2025/03/04 22:44:45] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:46] cedar.utils.logger INFO: 重复提问，等待一会
+[2025/03/04 22:44:55] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:56] cedar.utils.logger INFO: 用户输入:     logger.info("启动快捷回答")
+
+[2025/03/04 22:44:58] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:44:59] cedar.utils.logger INFO: 重复提问，等待一会
+[2025/03/04 22:45:00] cedar.utils.logger INFO: 检测到热键触发
+[2025/03/04 22:45:01] cedar.utils.logger INFO: 用户输入:     logger.info("启动快捷回答")
+
+[2025/03/04 22:45:02] cedar.utils.logger INFO: ```
+[2025/03/04 22:45:02] cedar.utils.logger INFO: python
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 
+
+[2025/03/04 22:45:02] cedar.utils.logger INFO: logger
+[2025/03/04 22:45:02] cedar.utils.logger INFO: .info
+[2025/03/04 22:45:02] cedar.utils.logger INFO: (
+[2025/03/04 22:45:02] cedar.utils.logger INFO: "
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 启动
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 回答
+[2025/03/04 22:45:02] cedar.utils.logger INFO: ")
+
+[2025/03/04 22:45:02] cedar.utils.logger INFO: ```
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 
+
+
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 这是
+[2025/03/04 22:45:02] cedar.utils.logger INFO: Python
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 中
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 使用
+[2025/03/04 22:45:02] cedar.utils.logger INFO: `
+[2025/03/04 22:45:02] cedar.utils.logger INFO: logging
+[2025/03/04 22:45:02] cedar.utils.logger INFO: `
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 模块
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 记录
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 信息
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 级别的
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 日志
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 。
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 当
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 执行
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 这
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 行
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 代码
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 时
+[2025/03/04 22:45:02] cedar.utils.logger INFO: ，
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 会在
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 日志
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 文件
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 或
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 控制
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 台
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 输出
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 一条
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 信息
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 级别的
+[2025/03/04 22:45:02] cedar.utils.logger INFO: 日志
+[2025/03/04 22:45:02] cedar.utils.logger INFO: ，
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 内容
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 为
+[2025/03/04 22:45:03] cedar.utils.logger INFO: "
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 启动
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 快捷
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 回答
+[2025/03/04 22:45:03] cedar.utils.logger INFO: "
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 。
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 这个
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 日志
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 可以帮助
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 开发者
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 了解
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 程序
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 的
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 运行
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 状态
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 和
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 行为
+[2025/03/04 22:45:03] cedar.utils.logger INFO: 。

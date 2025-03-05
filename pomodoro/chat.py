@@ -9,6 +9,7 @@ from PyQt5.QtGui import QFont
 from base import read_json, env
 from cedar.utils import logger, init_logger
 
+
 init_logger(log_file=env["log_path"])
 
 
@@ -19,6 +20,8 @@ class WorkerThread(QThread):
     # 定义信号，用于在主线程中更新 UI
     update_text_signal = pyqtSignal(str)
     error_signal = pyqtSignal(str)
+    show_window_signal = pyqtSignal()  # 新增信号，用于通知主线程显示窗口
+
 
     def __init__(self, env):
         super().__init__()
@@ -33,6 +36,7 @@ class WorkerThread(QThread):
 
     def on_activate(self):
         logger.info("检测到热键触发")
+        self.show_window_signal.emit()
         # 获取用户输入，执行 command + c
         process = subprocess.Popen(
             ["osascript", "-e",
@@ -93,6 +97,7 @@ class QuickAnswerApp(QMainWindow):
         self.worker = WorkerThread(env)
         self.worker.update_text_signal.connect(self.update_text)
         self.worker.error_signal.connect(self.update_text)
+        self.worker.show_window_signal.connect(self.show_window)  # 连接信号到显示窗口的方法
         self.worker.start()
 
     def init_ui(self):
@@ -104,7 +109,6 @@ class QuickAnswerApp(QMainWindow):
         self.text_box.setFont(QFont("San Francisco", 12))
         self.text_box.setStyleSheet("background-color: #333233; border: none; color: white;")
         self.text_box.setReadOnly(True) # 设置为只读模式 
-        # self.text_box.setWordWrapMode(Qt.TextWordWrap)  # 开启自动换行
         layout = QVBoxLayout()
         layout.addWidget(self.text_box)
 
@@ -112,15 +116,21 @@ class QuickAnswerApp(QMainWindow):
         container.setLayout(layout)
         self.setCentralWidget(container) # 将容器设置为窗口的中央部件
 
+
     def update_text(self, text):
         self.text_box.insertPlainText(text)
         self.text_box.verticalScrollBar().setValue(self.text_box.verticalScrollBar().maximum())
+        
 
+    def show_window(self):
+        # 显示窗口并激活
+        self.show()
+        self.raise_() # 显示窗口并将其置于最前
+        self.activateWindow() # 激活窗口
 
 if __name__ == "__main__":
     logger.info("启动快捷回答")
     logger.info("{}".format(sys.argv))
     app = QApplication(sys.argv)
     window = QuickAnswerApp(env)
-    window.show()
     sys.exit(app.exec_())
